@@ -1,0 +1,7 @@
+# Maps the "abbr" field used in _bibliography/papers.bib entries to a badge
+# color/link shown on the publications page.
+#
+# Example:
+# "CellDev":
+#   url: https://example.com/journal
+#   color: "#00369f"

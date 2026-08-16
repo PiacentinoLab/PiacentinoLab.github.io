@@ -1,0 +1,6 @@
+# Auto-populated citation-count cache when using jekyll-scholar with a Google
+# Scholar ID (see _data/socials.yml -> scholar_userid, and bin/update_scholar_citations.py).
+# Left empty since no scholar_userid is configured yet.
+metadata:
+  last_updated:
+papers: {}
