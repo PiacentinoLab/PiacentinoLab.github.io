@@ -1,0 +1,8 @@
+# Used by jekyll-scholar to link coauthor names in _bibliography/papers.bib to
+# a URL (e.g., their personal site or Google Scholar page). Key = surname as it
+# appears in the .bib "author" field.
+#
+# Example:
+# "smith":
+#   - firstname: ["Jane", "J."]
+#     url: https://example.com/jane-smith
