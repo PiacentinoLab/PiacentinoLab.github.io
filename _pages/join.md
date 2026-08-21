@@ -4,20 +4,18 @@ permalink: /join/
 title: join
 description: Open positions and how to apply.
 nav: true
-nav_order: 5
+nav_order: 7
 ---
 
-**This is placeholder text — replace with your own.**
-
-We're always interested in hearing from motivated, curious people. [Placeholder: describe current openings, or state that there are none currently advertised.]
+We are looking for passionate graduate students, undergraduate students, and postdoctoral fellows to join our team — please email us to inquire about a position!
 
 ### Graduate students
-[Placeholder: describe how prospective graduate students should apply — e.g., through a specific PhD program, and encourage them to reach out directly.]
+If you are looking for an outstanding PhD program, check out [BCMB @ Hopkins](https://bcmb.bs.jhmi.edu/)! We are currently looking for new graduate students to join the lab through the program.
 
 ### Postdoctoral fellows
-[Placeholder: describe postdoc opportunities and how to apply.]
+We welcome inquiries from postdoctoral fellows interested in lipid metabolism, membrane biophysics, or neural crest cell biology. Reach out with your CV and a brief note about your research interests.
 
-### Undergraduates / technicians
-[Placeholder: describe opportunities for undergraduate researchers or lab technicians.]
+### Undergraduates
+We're always excited to have undergraduate researchers join the lab and learn chick embryology and imaging techniques. If you're a Johns Hopkins undergraduate interested in developmental biology, get in touch!
 
-If interested, please reach out via the [contact info on our about page](/) with your CV/resume and a brief note about your interests.
+If interested, please email us at **piacentinolab [at] gmail [dot] com** with your CV/resume and a brief note about your interests — we'd love to hear from you, whether you're interested in joining our group, collaborating, or just discussing lipids and EMT!
