@@ -1,7 +1,36 @@
 # Maps the "abbr" field used in _bibliography/papers.bib entries to a badge
 # color/link shown on the publications page.
-#
-# Example:
-# "CellDev":
-#   url: https://example.com/journal
-#   color: "#00369f"
+
+"bioRxiv":
+  url: https://www.biorxiv.org/
+  color: "#d96738"
+"PLoS Biol":
+  url: https://journals.plos.org/plosbiology/
+  color: "#188463"
+"Dev Biol":
+  url: https://www.sciencedirect.com/journal/developmental-biology
+  color: "#17517e"
+"PNAS":
+  url: https://www.pnas.org/
+  color: "#a6741c"
+"eLife":
+  url: https://elifesciences.org/
+  color: "#3a3a3a"
+"Development":
+  url: https://journals.biologists.com/dev
+  color: "#6bb2cc"
+"Front Physiol":
+  url: https://www.frontiersin.org/journals/physiology
+  color: "#4a9b6e"
+"COCB":
+  url: https://www.sciencedirect.com/journal/current-opinion-in-cell-biology
+  color: "#8451a1"
+"Biol J Linn Soc":
+  url: https://academic.oup.com/biolinnean
+  color: "#7a6a53"
+"CBP-A":
+  url: https://www.sciencedirect.com/journal/comparative-biochemistry-and-physiology-part-a-molecular-and-integrative-physiology
+  color: "#7a6a53"
+"Science":
+  url: https://www.science.org/journal/science
+  color: "#b71c1c"

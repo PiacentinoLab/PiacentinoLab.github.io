@@ -2,7 +2,7 @@
 layout: page
 title: research
 permalink: /research/
-description: Research areas in the Piacentino Lab.
+description: How does membrane organization control epithelial-to-mesenchymal transition and cell migration during development and disease?
 nav: true
 nav_order: 2
 horizontal: false

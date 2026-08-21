@@ -6,12 +6,12 @@ subtitle: Johns Hopkins University School of Medicine
 
 profile:
   align: right
-  image:
+  image: logo/logo-vertical.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>[Placeholder] Department / Building / Room</p>
-    <p>[Placeholder] Street Address</p>
-    <p>Baltimore, MD [zip]</p>
+    <p>Department of Cell Biology</p>
+    <p>Johns Hopkins University School of Medicine</p>
+    <p>Baltimore, MD</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,10 +27,8 @@ latest_posts:
   limit: 3
 ---
 
-**This is placeholder text — replace with your own lab overview.**
+## Welcome to the Piacentino Lab!
 
-Welcome to the Piacentino Lab. We are part of the [Johns Hopkins University School of Medicine](https://www.hopkinsmedicine.org/). Our research focuses on [placeholder: one or two sentences on your research focus — e.g., the gene regulatory and cellular mechanisms of neural crest cell development and craniofacial disorders].
+**Mission:** We in the Piacentino lab empower one another to grow as scientists and humans while seeking to understand how cells in the developing embryo migrate through their environment to construct our adult organ systems. Specific projects combine chicken embryology and cell culture with rigorous live imaging, molecular biology, and biochemistry to determine how cellular lipids drive migration. We foster a community built on curiosity, compassion, inclusivity, and determination.
 
-We use [placeholder: your lab's core approaches/techniques] to ask [placeholder: your lab's core scientific questions].
-
-Interested in joining the lab? See our [Join](/join/) page. To add a photo of yourself, save an image as `assets/img/prof_pic.jpg` and set `profile.image: prof_pic.jpg` in this file's front matter.
+We're part of the [Department of Cell Biology](https://cellbio.jhmi.edu/) at the [Johns Hopkins University School of Medicine](https://www.hopkinsmedicine.org/). Interested in joining the lab? See our [Join](/join/) page — or head to [Meet the Lab](/people/) to see who we are.
