@@ -9,16 +9,9 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-news",
-          title: "news",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/news/";
-          },
-        },{id: "nav-research",
+  },{id: "nav-research",
           title: "research",
-          description: "Research areas in the Piacentino Lab.",
+          description: "How does membrane organization control epithelial-to-mesenchymal transition and cell migration during development and disease?",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
@@ -32,10 +25,24 @@ ninja.data = [{
           },
         },{id: "nav-people",
           title: "people",
-          description: "Members of the Piacentino Lab.",
+          description: "Meet the Lab.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
+          },
+        },{id: "nav-lab-photos",
+          title: "Lab Photos",
+          description: "Moments from life in the Piacentino Lab.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/labphotos/";
+          },
+        },{id: "nav-diversity-equity-inclusion-and-belonging",
+          title: "Diversity, Equity, Inclusion and Belonging",
+          description: "Our commitment to diversity, equity, inclusion, and belonging, and our mentoring philosophy.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/deib/";
           },
         },{id: "nav-join",
           title: "join",
@@ -44,6 +51,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/join/";
           },
+        },{id: "nav-news",
+          title: "news",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "Principal Investigator CV. Edit &#39;_data/cv.yml&#39; to update the content, and set cv_pdf below to link a downloadable PDF.",
@@ -51,25 +65,36 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-welcome-to-the-new-piacentino-lab-website-this-is-a-placeholder-announcement-edit-or-delete-this-file-news-announcement-1-md-and-add-new-ones-the-same-way-to-post-lab-news-here",
-          title: 'Welcome to the new Piacentino Lab website! This is a placeholder announcement —...',
+        },{id: "news-our-collaboration-with-the-strobl-mazzulla-lab-on-mir-203-and-extracellular-vesicle-communication-between-neural-crest-and-placode-cells-is-out-now-in-plos-biology",
+          title: 'Our collaboration with the Strobl-Mazzulla lab on miR-203 and extracellular vesicle communication between...',
           description: "",
-          section: "News",},{id: "projects-placeholder-neural-crest-cell-development",
-          title: '[Placeholder] Neural crest cell development',
-          description: "One to two sentence summary of this research area.",
+          section: "News",},{id: "news-new-preprint-stephanie-s-work-on-lipid-mediated-reinforcement-of-fgf-mapk-signaling-in-otic-placode-specification-is-up-on-biorxiv",
+          title: 'New preprint! Stephanie’s work on lipid-mediated reinforcement of FGF/MAPK signaling in otic placode...',
+          description: "",
+          section: "News",},{id: "news-new-preprint-mallorie-s-work-on-the-lipid-raft-linker-gene-raftlin-2-in-migrating-neural-crest-cells-is-up-on-biorxiv",
+          title: 'New preprint! Mallorie’s work on the lipid raft-linker gene Raftlin-2 in migrating neural...',
+          description: "",
+          section: "News",},{id: "projects-emt-and-cell-migration",
+          title: 'EMT and cell migration',
+          description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/research/1_research_area/";
-            },},{id: "projects-placeholder-genomics-amp-single-cell-approaches",
-          title: '[Placeholder] Genomics &amp;amp; single-cell approaches',
-          description: "One to two sentence summary of this research area.",
+              window.location.href = "/research/1_emt_migration/";
+            },},{id: "projects-lipid-metabolism-controls-neural-crest-emt",
+          title: 'Lipid metabolism controls neural crest EMT',
+          description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/research/2_research_area/";
+              window.location.href = "/research/2_lipid_metabolism/";
+            },},{id: "projects-how-does-membrane-biophysics-direct-cell-migration",
+          title: 'How does membrane biophysics direct cell migration?',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/research/3_membrane_biophysics/";
             },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%6C%61%62@%70%69%61%63%65%6E%74%69%6E%6F%6C%61%62.%63%6F%6D", "_blank");
+          window.open("mailto:%70%69%61%63%65%6E%74%69%6E%6F%6C%61%62@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-github',
@@ -84,6 +109,27 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("/feed.xml", "_blank");
+        },
+      },{
+        id: 'social-x',
+        title: 'X',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://twitter.com/MikePiacentino", "_blank");
+        },
+      },{
+        id: 'social-mastodon',
+        title: 'Mastodon',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://mstdn.science/@mikepiacentino", "_blank");
+        },
+      },{
+        id: 'social-bluesky',
+        title: 'Bluesky',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://bsky.app/profile/mikepiacentino.bsky.social", "_blank");
         },
       },{
       id: 'light-theme',
