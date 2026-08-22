@@ -15,7 +15,7 @@ nav_order: 9
 
 ### Internal
 
-- Lab Handbook *(link placeholder, will populate)*
+- [Lab Handbook](/resources/handbook/welcome/)
 - Lab Protocols *(coming soon)*
 - Lab GitHub: [https://github.com/piacentinolab](https://github.com/piacentinolab)
 - Lab ShinyApp *(coming soon)*

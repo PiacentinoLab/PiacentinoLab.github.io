@@ -427,3 +427,110 @@ body.has-banner {
     }
   }
 }
+
+// Lab Handbook: persistent sidebar (every chapter + subsection, always
+// expanded) beside the current chapter's content. The section link
+// highlights via a Liquid comparison (page.handbook_slug); subsection
+// links highlight via scrollspy in assets/js/handbook.js.
+.handbook-toc {
+  top: 5rem;
+  max-height: calc(100vh - 6rem);
+  overflow-y: auto;
+  padding-right: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.handbook-toc-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-size: 0.7rem;
+  color: var(--global-text-color);
+  opacity: 0.6;
+  margin-bottom: 1rem;
+}
+
+.handbook-toc-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.handbook-toc-section {
+  margin-bottom: 1rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.handbook-toc-section-link {
+  display: block;
+  font-weight: 600;
+  color: var(--global-text-color);
+  padding: 0.15rem 0;
+
+  &:hover {
+    color: var(--global-hover-color);
+  }
+
+  &.current {
+    color: var(--global-theme-color);
+  }
+}
+
+.handbook-toc-subsections {
+  list-style: none;
+  padding-left: 0.75rem;
+  margin: 0.35rem 0 0;
+  border-left: 2px solid var(--global-divider-color);
+}
+
+.handbook-toc-sub-link {
+  display: block;
+  padding: 0.2rem 0 0.2rem 0.65rem;
+  margin-left: -2px;
+  color: var(--global-text-color);
+  border-left: 2px solid transparent;
+
+  &:hover {
+    color: var(--global-hover-color);
+  }
+
+  &.active {
+    color: var(--global-theme-color);
+    border-left-color: var(--global-theme-color);
+    font-weight: 600;
+  }
+}
+
+.handbook-content {
+  h2 {
+    margin-top: 3rem;
+    scroll-margin-top: 85px;
+  }
+
+  h3 {
+    margin-top: 2rem;
+  }
+
+  h2:first-of-type {
+    margin-top: 2rem;
+  }
+}
+
+.handbook-updated {
+  font-size: 0.8rem;
+  opacity: 0.7;
+  margin-top: -0.5rem;
+}
+
+@media (max-width: 576px) {
+  .handbook-toc {
+    position: static;
+    max-height: none;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-bottom: 1rem;
+  }
+}
