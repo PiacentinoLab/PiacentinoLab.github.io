@@ -58,6 +58,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/join/";
           },
+        },{id: "nav-resources",
+          title: "resources",
+          description: "Lab resources, tools, and links.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/resources/";
+          },
         },{id: "news-our-paper-on-how-smpd3-expression-is-spatially-regulated-in-the-developing-embryo-by-soxe-factors-is-out-now-in-developmental-biology",
           title: 'Our paper on how SMPD3 expression is spatially regulated in the developing embryo...',
           description: "",
