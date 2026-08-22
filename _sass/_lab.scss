@@ -94,7 +94,6 @@ html[data-theme="dark"] {
 
     .caption-title {
       font-weight: 600;
-      color: var(--global-theme-color);
       display: block;
     }
 
@@ -102,6 +101,18 @@ html[data-theme="dark"] {
       color: var(--global-text-color-light);
       font-size: 0.95rem;
     }
+  }
+
+  figure:nth-of-type(3n + 1) .caption-title {
+    color: var(--global-theme-color);
+  }
+
+  figure:nth-of-type(3n + 2) .caption-title {
+    color: var(--global-hover-color);
+  }
+
+  figure:nth-of-type(3n) .caption-title {
+    color: var(--brand-steel);
   }
 }
 
@@ -198,6 +209,11 @@ article p a {
 // Match profile "more info" (pronouns/position/address) to body font instead of monospace
 .more-info {
   font-family: inherit !important;
+}
+
+// Name / pronouns / title / email block at the top of each People page bio
+.profile-meta {
+  margin-bottom: 1rem;
 }
 
 // Shrink the bottom contact icon row ~15%, and bump up the contact note text ~10%
