@@ -459,7 +459,7 @@ body.has-banner {
   border: 1px solid var(--global-theme-color);
   border-radius: 6px;
   padding: 0.45rem 0.5rem;
-  margin-bottom: 1.25rem;
+  margin-top: 1.5rem;
 
   &:hover {
     color: #fff;
@@ -523,6 +523,12 @@ body.has-banner {
 }
 
 .handbook-content {
+  h2,
+  h3 {
+    border-top: 1px solid var(--global-divider-color);
+    padding-top: 1.25rem;
+  }
+
   h2 {
     margin-top: 3rem;
     scroll-margin-top: 85px;
@@ -534,6 +540,24 @@ body.has-banner {
 
   h2:first-of-type {
     margin-top: 2rem;
+  }
+
+  // Alternating navy / orange / steel blue dividers, same cycle used
+  // for section dividers elsewhere on the site -- h2 and h3 cycle
+  // independently of one another
+  h2:nth-of-type(3n + 1),
+  h3:nth-of-type(3n + 1) {
+    border-top-color: var(--global-theme-color);
+  }
+
+  h2:nth-of-type(3n + 2),
+  h3:nth-of-type(3n + 2) {
+    border-top-color: var(--global-hover-color);
+  }
+
+  h2:nth-of-type(3n),
+  h3:nth-of-type(3n) {
+    border-top-color: var(--brand-steel);
   }
 }
 
