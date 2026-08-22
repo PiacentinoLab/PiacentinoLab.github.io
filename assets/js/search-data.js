@@ -32,14 +32,14 @@ ninja.data = [{
           },
         },{id: "nav-people",
           title: "people",
-          description: "Meet the Lab.",
+          description: "Meet the Lab",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
           },
         },{id: "nav-lab-photos",
           title: "lab photos",
-          description: "Moments from life in the Piacentino Lab.",
+          description: "Moments from life in the Piacentino Lab",
           section: "Navigation",
           handler: () => {
             window.location.href = "/labphotos/";
@@ -53,14 +53,14 @@ ninja.data = [{
           },
         },{id: "nav-join",
           title: "join",
-          description: "Open positions and how to apply.",
+          description: "Open positions and how to apply",
           section: "Navigation",
           handler: () => {
             window.location.href = "/join/";
           },
         },{id: "nav-resources",
           title: "resources",
-          description: "Lab resources, tools, and links.",
+          description: "Lab resources, tools, and links",
           section: "Navigation",
           handler: () => {
             window.location.href = "/resources/";
