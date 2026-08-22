@@ -18,4 +18,4 @@ We welcome inquiries from postdoctoral fellows interested in lipid metabolism, m
 ### Undergraduates
 We're always excited to have undergraduate researchers join the lab and learn chick embryology and imaging techniques. If you're a Johns Hopkins undergraduate interested in developmental biology, get in touch!
 
-If interested, please email us at **piacentinolab [at] gmail [dot] com** with your CV/resume and a brief note about your interests — we'd love to hear from you, whether you're interested in joining our group, collaborating, or just discussing lipids and EMT!
+If interested, please email us at **michaelpiacentino [at] jhmi [dot] edu** with your CV/resume and a brief note about your interests — we'd love to hear from you, whether you're interested in joining our group, collaborating, or just discussing lipids and EMT!

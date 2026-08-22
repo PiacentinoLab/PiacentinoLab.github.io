@@ -1,13 +1,11 @@
 # this file contains the social media links and usernames of the author
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-email: piacentinolab@gmail.com
+email: michaelpiacentino@jhmi.edu
 github_username: PiacentinoLab
 rss_icon: true # comment this line to hide the RSS icon
 x_username: MikePiacentino
-mastodon_username: mstdn.science/@mikepiacentino
 bluesky_url: https://bsky.app/profile/mikepiacentino.bsky.social
 # scholar_userid: # your Google Scholar ID
 # instagram_id: # your Instagram handle
 # linkedin_username: # your LinkedIn username
-# cv_pdf: /assets/pdf/your_cv.pdf # path to a CV PDF file, if you add one

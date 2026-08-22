@@ -89,3 +89,72 @@ html[data-theme="dark"] {
   color: var(--global-text-color-light);
   margin-top: -0.5rem;
 }
+
+// Widen the page: ~10% margin on each side instead of a fixed 930px column
+.container {
+  max-width: min(1600px, 80%) !important;
+}
+
+// Home page header spacing
+.post-header .desc {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+// Remove the drop shadow on the home page logo graphic only
+.layout-about .profile img {
+  box-shadow: none !important;
+}
+
+// Address block under the mission statement on the home page
+.home-address {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-top: 2rem;
+  clear: both;
+
+  img {
+    height: 64px;
+    width: auto;
+    flex-shrink: 0;
+  }
+
+  .address-text p {
+    margin: 0;
+    line-height: 1.5;
+  }
+}
+
+// Match profile "more info" (pronouns/position/address) to body font instead of monospace
+.more-info {
+  font-family: inherit !important;
+}
+
+// Shrink the bottom contact icon row ~15%, and bump up the contact note text ~10%
+.social {
+  .contact-icons {
+    font-size: 3.4rem;
+
+    a {
+      img {
+        width: 2.72rem;
+        height: 2.72rem;
+      }
+
+      svg {
+        width: 2.975rem;
+        height: 3.4rem;
+
+        image {
+          width: 2.975rem;
+          height: 2.975rem;
+        }
+      }
+    }
+  }
+
+  .contact-note {
+    font-size: 0.88rem;
+  }
+}
