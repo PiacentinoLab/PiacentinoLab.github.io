@@ -58,7 +58,7 @@ To prevent experimental contamination, lab members with long hair should tie hai
 
 ### When Representing the Lab
 
-Please be mindful that you are representing the lab when you attend meetings and present your work outside the lab! Professional attire can be confusing, and there is no "one right way" to present yourself professionally. I encourage you to find a style that allows you to feel comfortable and like yourself -- no need to be a slacks-and-button-down person if that's not your style. However, graphic t-shirts, shorts, cargo pants, and athleisure wear are generally not appropriate in professional settings.
+Please be mindful that you are representing the lab when you attend meetings and present your work outside the lab! Professional attire can be confusing, and there is no "one right way" to present yourself professionally. I encourage you to find a style that allows you to feel comfortable and like yourself -- no need to be a slacks-and-button-down person if that's not your style.
 
 ### Photos, Videos, and Social Media
 
