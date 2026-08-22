@@ -5,7 +5,6 @@ permalink: /research/
 description: How does membrane organization control epithelial-to-mesenchymal transition and cell migration during development and disease?
 nav: true
 nav_order: 2
-related_publications: true
 ---
 
 <div class="research-page" markdown="1">
