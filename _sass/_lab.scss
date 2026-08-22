@@ -117,6 +117,13 @@ html[data-theme="dark"] {
   box-shadow: none !important;
 }
 
+// Shrink the vertical logo graphic on the home page ~10%
+@media (min-width: 576px) {
+  .layout-about .profile {
+    width: 27%;
+  }
+}
+
 // Address block under the mission statement on the home page
 .home-address {
   display: flex;
