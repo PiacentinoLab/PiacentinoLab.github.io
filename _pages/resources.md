@@ -2,7 +2,7 @@
 layout: page
 permalink: /resources/
 title: resources
-description: Lab resources, tools, and links.
+description: Lab resources, tools, and links
 nav: true
 nav_order: 9
 ---
