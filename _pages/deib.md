@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /deib/
-title: Diversity, Equity, Inclusion and Belonging
+title: diversity, equity, inclusion and belonging
 nav_title: deib
 nav: true
 nav_order: 7
@@ -10,7 +10,7 @@ nav_order: 7
 <div class="row align-items-center" markdown="1">
 <div class="col-sm-8" markdown="1">
 
-## Diversity, Equity, Inclusion and Belonging
+## diversity, equity, inclusion and belonging
 
 As a researcher, a mentor, and a member of the LGBTQ+ community, Mike is dedicated to fighting for diversity, equity, inclusion and belonging. Race, ethnicity, gender, age, religion, language, abilities/disabilities, sexual orientation, gender identity, political affiliation, and socioeconomic status should not be barriers to the STEM community or grounds for discrimination. As such, the Piacentino lab welcomes people and viewpoints from all backgrounds. Only when everyone feels a sense of belonging and support from their community can our scientific and human endeavors reach their peak ingenuity and excellence.
 
