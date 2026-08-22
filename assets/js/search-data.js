@@ -58,18 +58,17 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/news/";
           },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "Principal Investigator CV. Edit &#39;_data/cv.yml&#39; to update the content, and set cv_pdf below to link a downloadable PDF.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "news-our-collaboration-with-the-strobl-mazzulla-lab-on-mir-203-and-extracellular-vesicle-communication-between-neural-crest-and-placode-cells-is-out-now-in-plos-biology",
           title: 'Our collaboration with the Strobl-Mazzulla lab on miR-203 and extracellular vesicle communication between...',
           description: "",
+          section: "News",},{id: "news-we-are-excited-to-thank-the-nigms-for-supporting-our-work-through-an-r35-award-can-t-wait-to-discover-how-membrane-fluidity-influences-developmental-cell-migration",
+          title: 'We are excited to thank the NIGMS for supporting our work through an...',
+          description: "",
           section: "News",},{id: "news-new-preprint-stephanie-s-work-on-lipid-mediated-reinforcement-of-fgf-mapk-signaling-in-otic-placode-specification-is-up-on-biorxiv",
           title: 'New preprint! Stephanie’s work on lipid-mediated reinforcement of FGF/MAPK signaling in otic placode...',
+          description: "",
+          section: "News",},{id: "news-thank-you-to-the-emerald-foundation-inc-for-supporting-our-work-through-a-young-investigator-award",
+          title: 'Thank you to the Emerald Foundation, Inc. for supporting our work through a...',
           description: "",
           section: "News",},{id: "news-new-preprint-mallorie-s-work-on-the-lipid-raft-linker-gene-raftlin-2-in-migrating-neural-crest-cells-is-up-on-biorxiv",
           title: 'New preprint! Mallorie’s work on the lipid raft-linker gene Raftlin-2 in migrating neural...',
@@ -94,7 +93,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%70%69%61%63%65%6E%74%69%6E%6F%6C%61%62@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+          window.open("mailto:%6D%69%63%68%61%65%6C%70%69%61%63%65%6E%74%69%6E%6F@%6A%68%6D%69.%65%64%75", "_blank");
         },
       },{
         id: 'social-github',
@@ -116,13 +115,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://twitter.com/MikePiacentino", "_blank");
-        },
-      },{
-        id: 'social-mastodon',
-        title: 'Mastodon',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://mstdn.science/@mikepiacentino", "_blank");
         },
       },{
         id: 'social-bluesky',
