@@ -150,7 +150,7 @@ In addition to scheduled meetings or me wandering through the lab, if my door is
 
 If the door is closed, I am either gone, in a meeting, or need to work undisturbed, so please email/Slack instead of knocking.
 
-If you need more time with me (we run out of time during our MWM, you want to discuss something in a larger dedicated time block, etc), directly find meeting availability and book me on [Calendly](https://calendly.com/mikepiacentino).
+If you need more time with me (we run out of time during our MWM, you want to discuss something in a larger dedicated time block, etc), reach out on Slack or email and we'll find a time.
 
 ## Communication {#communication}
 

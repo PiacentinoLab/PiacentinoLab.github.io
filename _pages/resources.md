@@ -16,6 +16,12 @@ nav_order: 9
 ### Internal
 
 - [Lab Handbook](/resources/handbook/welcome/)
+  - [Welcome, Expectations & Conduct](/resources/handbook/welcome/)
+  - [General Logistics](/resources/handbook/logistics/)
+  - [Meetings & Communication](/resources/handbook/meetings/)
+  - [Rigor, Reproducibility & Data Management](/resources/handbook/rigor-data/)
+  - [Laboratory Conduct & Biosafety](/resources/handbook/biosafety/)
+  - [Checklists](/resources/handbook/checklists/)
 - Lab Protocols *(coming soon)*
 - Lab GitHub: [https://github.com/piacentinolab](https://github.com/piacentinolab)
 - Lab ShinyApp *(coming soon)*

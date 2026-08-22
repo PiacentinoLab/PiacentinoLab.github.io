@@ -6,7 +6,6 @@ layout: default
     <div class="col-sm-3">
       <nav id="handbook-toc" class="handbook-toc sticky-top">
         <div class="handbook-toc-title">Lab Handbook</div>
-        <a class="handbook-download-btn" href="{{ '/assets/handbook/piacentino-lab-handbook.pdf' | relative_url | bust_file_cache }}" download>Download Handbook (PDF)</a>
         <ul class="handbook-toc-list">
           {% for section in site.data.handbook %}
             {% assign section_url = "/resources/handbook/" | append: section.slug | append: "/" | relative_url %}
@@ -22,6 +21,7 @@ layout: default
             </li>
           {% endfor %}
         </ul>
+        <a class="handbook-download-btn" href="{{ '/assets/handbook/piacentino-lab-handbook.pdf' | relative_url | bust_file_cache }}" download>Download Handbook (PDF)</a>
       </nav>
     </div>
     <div class="col-sm-9">
