@@ -8,19 +8,9 @@ nav_order: 2
 related_publications: true
 ---
 
-<div class="accordion research-accordion" id="researchAccordion">
+<div class="research-page" markdown="1">
 
-  <div class="card">
-    <div class="card-header" id="heading-emt">
-      <h2 class="mb-0">
-        <button class="accordion-toggle" type="button" data-toggle="collapse" data-target="#collapse-emt" aria-expanded="true" aria-controls="collapse-emt">
-          <span>EMT and Cell Migration</span>
-          <svg class="accordion-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M6 9l6 6 6-6"/></svg>
-        </button>
-      </h2>
-    </div>
-    <div id="collapse-emt" class="collapse show" aria-labelledby="heading-emt" data-parent="#researchAccordion">
-      <div class="card-body" markdown="1">
+## EMT and Cell Migration
 
 ### The Question
 
@@ -30,25 +20,10 @@ Epithelial-to-mesenchymal transition, or EMT, is a major cellular lifestyle chan
 
 We use the chicken neural crest as a tractable model system to study the mechanisms of EMT and cell migration. The neural crest is an embryonic cell population with remarkable multipotency and migratory ability, enabling it to contribute to diverse organ systems including the craniofacial skeleton and the peripheral nervous system {% cite piacentino2020review %}. By combining chick embryology with live imaging, molecular biology, and biochemistry, we can watch this transition unfold in real time. Insights gained from studying neural crest cells have the potential to inform novel therapeutic approaches to combat both congenital disorders and metastatic diseases.
 
-{% include figure.liquid path="assets/img/research/cranial-ncc-explant.jpg" title="Cranial neural crest explant" class="img-fluid rounded z-depth-1" %}
-<div class="caption">A cranial neural crest explant undergoing EMT and delamination in culture.</div>
+{% include video.liquid path="assets/video/wm-timelapse.mp4" class="img-fluid rounded z-depth-1 lab-media" autoplay=true controls=true loop=true muted=true poster="assets/img/research/wm-timelapse-poster.jpg" %}
+<div class="caption">Whole-mount timelapse of neural crest cell migration.</div>
 
-
-</div>
-</div>
-</div>
-
-  <div class="card">
-    <div class="card-header" id="heading-lipid">
-      <h2 class="mb-0">
-        <button class="accordion-toggle collapsed" type="button" data-toggle="collapse" data-target="#collapse-lipid" aria-expanded="false" aria-controls="collapse-lipid">
-          <span>Lipid Metabolism</span>
-          <svg class="accordion-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M6 9l6 6 6-6"/></svg>
-        </button>
-      </h2>
-    </div>
-    <div id="collapse-lipid" class="collapse" aria-labelledby="heading-lipid" data-parent="#researchAccordion">
-      <div class="card-body" markdown="1">
+## Lipid Metabolism
 
 ### The Question
 
@@ -61,22 +36,7 @@ We have described the mechanism by which the production of the membrane lipid ce
 {% include figure.liquid path="assets/img/research/lipid-heatmap.jpg" title="Lipid metabolizing gene expression heatmap" class="img-fluid rounded z-depth-1" %}
 <div class="caption">Spatiotemporal expression of lipid metabolizing genes across the developing embryo.</div>
 
-
-</div>
-</div>
-</div>
-
-  <div class="card">
-    <div class="card-header" id="heading-membrane">
-      <h2 class="mb-0">
-        <button class="accordion-toggle collapsed" type="button" data-toggle="collapse" data-target="#collapse-membrane" aria-expanded="false" aria-controls="collapse-membrane">
-          <span>Membrane Biophysics</span>
-          <svg class="accordion-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M6 9l6 6 6-6"/></svg>
-        </button>
-      </h2>
-    </div>
-    <div id="collapse-membrane" class="collapse" aria-labelledby="heading-membrane" data-parent="#researchAccordion">
-      <div class="card-body" markdown="1">
+## Membrane Biophysics
 
 ### The Question
 
@@ -86,15 +46,10 @@ Changing lipid metabolism has the potential to modulate the biophysical properti
 
 We have found that ceramide production by nSMase2 increases plasma membrane fluidity to influence directional neural crest migration (manuscript in preparation).
 
-{% include video.liquid path="assets/video/wm-timelapse.mp4" class="img-fluid rounded z-depth-1 lab-media" controls=true loop=true muted=true poster="assets/img/research/wm-timelapse-poster.jpg" %}
-<div class="caption">Whole-mount timelapse of neural crest cell migration.</div>
+{% include figure.liquid path="assets/img/research/cranial-ncc-explant.jpg" title="Cranial neural crest explant" class="img-fluid rounded z-depth-1" %}
+<div class="caption">A cranial neural crest explant undergoing EMT and delamination in culture.</div>
 
-{% include video.liquid path="assets/video/nc-explant-timelapse.mp4" class="img-fluid rounded z-depth-1 lab-media" controls=true loop=true muted=true poster="assets/img/research/nc-explant-timelapse-poster.jpg" %}
+{% include video.liquid path="assets/video/nc-explant-timelapse.mp4" class="img-fluid rounded z-depth-1 lab-media" autoplay=true controls=true loop=true muted=true poster="assets/img/research/nc-explant-timelapse-poster.jpg" %}
 <div class="caption">Neural crest explant timelapse.</div>
-
-
-</div>
-</div>
-</div>
 
 </div>
