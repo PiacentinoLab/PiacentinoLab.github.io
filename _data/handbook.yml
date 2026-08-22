@@ -25,18 +25,28 @@
       anchor: lab-responsibilities-and-maintenance
     - title: Time Off
       anchor: time-off
-    - title: Office Hours
-      anchor: office-hours
-    - title: Meetings
-      anchor: meetings
     - title: Attire
       anchor: attire
-    - title: Communication
-      anchor: communication
     - title: Equipment
       anchor: equipment
     - title: Organization
       anchor: organization
+
+- title: Meetings & Communication
+  slug: meetings
+  subsections:
+    - title: General Meeting Expectations
+      anchor: general-meeting-expectations
+    - title: Weekly Lab Meetings
+      anchor: weekly-lab-meetings
+    - title: Individual MWMs
+      anchor: individual-mwms
+    - title: Other Meetings
+      anchor: other-meetings
+    - title: Office Hours
+      anchor: office-hours
+    - title: Communication
+      anchor: communication
 
 - title: Laboratory Conduct & Biosafety
   slug: biosafety
@@ -71,6 +81,8 @@
       anchor: data-reproducibility
     - title: Data Management
       anchor: data-management
+    - title: Authorship
+      anchor: authorship
 
 - title: Checklists
   slug: checklists

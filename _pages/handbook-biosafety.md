@@ -199,9 +199,9 @@ Spills happen, and usually, we can take care of them quickly and safely. When wo
 
 Take this time to identify where our lab spill kit is located: PPE (gloves, lab coats, goggles/face shield), broom and dust pan, absorbent pads, autoclave bags, red-bagged biohazard boxes, bleach or other disinfectant and container for mixing.
 
-**For biological spills:**
+### For Biological Spills
 
-*Small (<50 mL):*
+#### Small (<50 mL)
 
 1. Remove contaminated clothing and PPE and place in biohazard box or set aside for decontamination.
 2. Replace any removed PPE and put on a lab coat, double gloves, and eye protection.
@@ -211,7 +211,7 @@ Take this time to identify where our lab spill kit is located: PPE (gloves, lab 
 6. Remove lab coat, eye protection, and gloves; wash hands thoroughly.
 7. Notify Mike.
 
-*Large (>50 mL):*
+#### Large (>50 mL)
 
 1. Alert the room and isolate the area from traffic. If potentially hazardous aerosols have been generated, leave the area immediately and let the aerosols settle and building exhaust clear the area for 20-30 minutes. Otherwise, without risking exposure, surround the spill with absorbent material to contain spreading.
 2. Remove contaminated clothing and PPE and place in biohazard box or set aside for decontamination.
@@ -221,7 +221,7 @@ Take this time to identify where our lab spill kit is located: PPE (gloves, lab 
 6. Remove lab coat, eye protection, and gloves, and wash hands thoroughly.
 7. Notify Mike.
 
-**For chemical spills:**
+### For Chemical Spills
 
 1. **EVALUATE** the spill: are the materials innocuous, corrosive, flammable, toxic or explosive? Identify all materials by common or chemical name, estimate how much is spilled, and evaluate the degree of danger to yourself, the lab, and equipment/property.
 2. **CONTAIN** the spill: utilize any action to prevent the spilled material from spreading and causing increased damage.

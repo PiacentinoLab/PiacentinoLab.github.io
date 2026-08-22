@@ -95,3 +95,17 @@ It is critical to store data in a format that is Findable, Accessible, Interoper
 2. **JHU Research Data Repository:** we will compile all raw data (everything on GitHub AND all raw images, sequence data, etc included in the study analyses) and publish this in the Hopkins Research Data Repository. Here, professional staff will curate and keep this data Findable, Accessible, Interoperable, and Reusable (FAIR), make it available to the world, and assign a permanent DOI for the project.
 
 *After your time in the lab:* When you leave the lab, we need to maintain your data in-house. Make sure you sync to the server and hard drives before you leave and turn in your hard drives to Mike during off-boarding.
+
+## Authorship {#authorship}
+
+We follow the APA guidelines for authorship credit:
+
+> "Authorship credit should reflect the individual's contribution to the study. An author is considered anyone involved with initial research design, data collection and analysis, manuscript drafting, and final approval. However, the following do not necessarily qualify for authorship: providing funding or resources, mentorship, or contributing research but not helping with the publication itself. The primary author assumes responsibility for the publication, making sure that the data are accurate, that all deserving authors have been credited, that all authors have given their approval to the final draft; and handles responses to inquiries after the manuscript is published."
+
+In general, the trainee leading a project will be first author on resulting publications, and Mike will be last author. Lab members who contribute meaningfully over the course of the project may be included as co-authors, with authorship order determined in consultation with all contributors. If a project is handed off to another person before completion, first authorship will likely transfer to the individual who brings the study through to publication.
+
+If you leave the lab with unfinished work, discuss with Mike whether you plan to continue leading the project through writing and potential revisions, or whether those responsibilities should be reassigned. In that case, authorship may be revisited -- retaining first authorship will depend on how much remains to be done to bring the work to publication.
+
+In collaborative projects with other labs, final author placement may vary. For example, an external PI may be listed last, with Mike second-to-last, and Piacentino Lab contributors in middle-author positions. Authorship expectations for collaborations will be discussed at the outset and re-evaluated as the project progresses.
+
+Discussing authorship early is helpful, but research is dynamic -- roles and contributions can shift. Authorship should be revisited regularly and discussed openly. If you have questions or concerns about your authorship status on any project, talk to Mike -- transparency and fairness are essential.
