@@ -142,7 +142,7 @@ If you feel you are being harassed or discriminated against or notice someone el
 
 ### Diversity, Equity, Inclusion and Belonging (DEIB) Statement
 
-As a researcher, a mentor, and a member of the LGBTQ+ community, Mike is dedicated to fighting for diversity, equity, inclusion and belonging. Race, ethnicity, gender, age, religion, language, abilities/disabilities, sexual orientation, gender identity, political affiliation, and socioeconomic status should not be barriers to the STEM community or grounds for discrimination. As such, the Piacentino lab welcomes people and viewpoints from all backgrounds. Only when everyone feels a sense of belonging and support from their community can our scientific and human endeavors reach their peak ingenuity and excellence. Read more on our [DEIB page](/deib/).
+As a researcher, a mentor, and a member of the LGBTQ+ community, Mike is dedicated to fighting for diversity, equity, inclusion and belonging. Race, ethnicity, gender, age, religion, language, abilities/disabilities, sexual orientation, gender identity, political affiliation, and socioeconomic status should not be barriers to the STEM community or grounds for discrimination. As such, the Piacentino lab welcomes people and viewpoints from all backgrounds. Only when everyone feels a sense of belonging and support from their community can our scientific and human endeavors reach their peak ingenuity and excellence.
 
 ### Scientific Integrity and Research Ethics
 
