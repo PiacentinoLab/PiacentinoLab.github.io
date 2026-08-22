@@ -264,8 +264,9 @@ article p a {
 }
 
 // Full-bleed hero banner behind a page's title, bleeding up under the fixed
-// navbar (breaks out of .container using the 100vw/-50vw trick; -57px
-// matches the navbar height reserved by body.fixed-top-nav's padding-top)
+// navbar (breaks out of .container using the 100vw/-50vw trick). Cancels
+// both the navbar space reserved by body.fixed-top-nav's padding-top (57px)
+// and the .container's own mt-5 (3rem) so the image reaches y=0.
 .page-hero {
   position: relative;
   left: 50%;
@@ -273,7 +274,7 @@ article p a {
   width: 100vw;
   margin-left: -50vw;
   margin-right: -50vw;
-  margin-top: -57px;
+  margin-top: -105px; // 57px navbar reserve + 48px .container's mt-5
   margin-bottom: 2.5rem;
   min-height: clamp(220px, 26vw, 340px);
   display: flex;
