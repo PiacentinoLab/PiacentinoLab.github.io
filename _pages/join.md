@@ -12,7 +12,7 @@ We are looking for passionate graduate students, undergraduate students, and pos
 If interested, please email us at **michaelpiacentino [at] jhmi [dot] edu** with your CV/resume and a brief note about your interests — we'd love to hear from you, whether you're interested in joining our group, collaborating, or just discussing lipids and EMT!
 
 ### Graduate students
-If you are looking for an outstanding PhD program, check out [BCMB @ Hopkins](https://bcmb.bs.jhmi.edu/)! We are currently looking for new graduate students to join the lab through the program.
+If you are looking for an outstanding PhD program, check out [BCMB](https://bcmb.bs.jhmi.edu/) or [CMM](https://www.hopkinsmedicine.org/som/education-programs/graduate-programs/programs) at Hopkins! Mike is a member of both programs, and we are currently looking for new graduate students to join the lab through either one. CMM also offers a Master's program option for those interested.
 
 ### Postdoctoral fellows
 We welcome inquiries from postdoctoral fellows interested in lipid metabolism, membrane biophysics, or neural crest cell biology. Reach out with your CV and a brief note about your research interests.

@@ -1,3 +1,5 @@
 ### Allison Mancini, PhD
 
+**she/her/her | Postdoctoral Fellow**
+
 Alli earned her PhD in Molecular Medicine at the University of Maryland School of Medicine working under Dr. Megan Rizzo. During her doctoral work she developed novel fluorescent biosensors, determined how calcium activates RhoA and Rho-kinase in fibroblasts, and characterized the role of Rho-kinase in collective cell migration. In addition to being deeply passionate about microscopy, Alli is extremely interested in the biophysics of cell migration. She is very excited to start learning about the role of lipids in neural crest development. Outside of the lab she enjoys reading, knitting, live music, and travel.
