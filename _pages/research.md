@@ -5,60 +5,96 @@ permalink: /research/
 description: How does membrane organization control epithelial-to-mesenchymal transition and cell migration during development and disease?
 nav: true
 nav_order: 2
-horizontal: false
+related_publications: true
 ---
 
-<!-- pages/research.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
+<div class="accordion research-accordion" id="researchAccordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-emt">
+      <h2 class="mb-0">
+        <button class="accordion-toggle" type="button" data-toggle="collapse" data-target="#collapse-emt" aria-expanded="true" aria-controls="collapse-emt">
+          <span>EMT and Cell Migration</span>
+          <svg class="accordion-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+      </h2>
     </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+    <div id="collapse-emt" class="collapse show" aria-labelledby="heading-emt" data-parent="#researchAccordion">
+      <div class="card-body" markdown="1">
 
-{% else %}
+### The Question
 
-<!-- Display projects without categories -->
+Epithelial-to-mesenchymal transition, or EMT, is a major cellular lifestyle change that results in cells with the ability to migrate long distances in the body. This process is critical for normal embryonic development and for the formation of many organs. However, EMT mechanisms are often co-opted in disease states such as cancer metastasis. How does membrane organization control EMT and cell migration during development and disease?
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+### Our Approach
 
-  <!-- Generate cards for each project -->
+We use the chicken neural crest as a tractable model system to study the mechanisms of EMT and cell migration. The neural crest is an embryonic cell population with remarkable multipotency and migratory ability, enabling it to contribute to diverse organ systems including the craniofacial skeleton and the peripheral nervous system {% cite piacentino2020review %}. By combining chick embryology with live imaging, molecular biology, and biochemistry, we can watch this transition unfold in real time. Insights gained from studying neural crest cells have the potential to inform novel therapeutic approaches to combat both congenital disorders and metastatic diseases.
 
-{% if page.horizontal %}
+{% include figure.liquid path="assets/img/research/cranial-ncc-explant.jpg" title="Cranial neural crest explant" class="img-fluid rounded z-depth-1" %}
+<div class="caption">A cranial neural crest explant undergoing EMT and delamination in culture.</div>
 
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
+
+</div>
+</div>
+</div>
+
+  <div class="card">
+    <div class="card-header" id="heading-lipid">
+      <h2 class="mb-0">
+        <button class="accordion-toggle collapsed" type="button" data-toggle="collapse" data-target="#collapse-lipid" aria-expanded="false" aria-controls="collapse-lipid">
+          <span>Lipid Metabolism</span>
+          <svg class="accordion-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+      </h2>
     </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
+    <div id="collapse-lipid" class="collapse" aria-labelledby="heading-lipid" data-parent="#researchAccordion">
+      <div class="card-body" markdown="1">
+
+### The Question
+
+EMT is often punctuated by changes in expression of diverse lipid metabolizing enzymes, raising the question: what is the function of lipid metabolism during EMT?
+
+### What We've Found
+
+We have described the mechanism by which the production of the membrane lipid ceramide by the enzyme nSMase2 is necessary for neural crest EMT {% cite piacentino2022pnas %}. Our work shows that ceramide production in the neural crest is necessary for endocytosis, which promotes cell signaling, transcriptional regulation, de-adhesion, and delamination. Using transcriptomics, reporter constructs, and gene editing, we are now deciphering how different lipid metabolizing genes are transcriptionally regulated across embryonic space and time {% cite piacentino2024smpd3 %}.
+
+{% include figure.liquid path="assets/img/research/lipid-heatmap.jpg" title="Lipid metabolizing gene expression heatmap" class="img-fluid rounded z-depth-1" %}
+<div class="caption">Spatiotemporal expression of lipid metabolizing genes across the developing embryo.</div>
+
+
+</div>
+</div>
+</div>
+
+  <div class="card">
+    <div class="card-header" id="heading-membrane">
+      <h2 class="mb-0">
+        <button class="accordion-toggle collapsed" type="button" data-toggle="collapse" data-target="#collapse-membrane" aria-expanded="false" aria-controls="collapse-membrane">
+          <span>Membrane Biophysics</span>
+          <svg class="accordion-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+      </h2>
+    </div>
+    <div id="collapse-membrane" class="collapse" aria-labelledby="heading-membrane" data-parent="#researchAccordion">
+      <div class="card-body" markdown="1">
+
+### The Question
+
+Changing lipid metabolism has the potential to modulate the biophysical properties of the plasma membrane. How does temporally-controlled lipid metabolism alter membrane properties such as fluidity and rigidity, as well as the lateral organization of proteins and lipids within it?
+
+### What We've Found
+
+We have found that ceramide production by nSMase2 increases plasma membrane fluidity to influence directional neural crest migration (manuscript in preparation).
+
+{% include video.liquid path="assets/video/wm-timelapse.mp4" class="img-fluid rounded z-depth-1 lab-media" controls=true loop=true muted=true poster="assets/img/research/wm-timelapse-poster.jpg" %}
+<div class="caption">Whole-mount timelapse of neural crest cell migration.</div>
+
+{% include video.liquid path="assets/video/nc-explant-timelapse.mp4" class="img-fluid rounded z-depth-1 lab-media" controls=true loop=true muted=true poster="assets/img/research/nc-explant-timelapse-poster.jpg" %}
+<div class="caption">Neural crest explant timelapse.</div>
+
+
+</div>
+</div>
+</div>
+
 </div>
