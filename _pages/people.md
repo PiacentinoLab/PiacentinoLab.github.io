@@ -4,7 +4,7 @@ permalink: /people/
 title: people
 description: Meet the Lab.
 nav: true
-nav_order: 4
+nav_order: 5
 
 profiles:
   - align: left
