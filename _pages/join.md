@@ -2,7 +2,7 @@
 layout: page
 permalink: /join/
 title: join
-description: Open positions and how to apply.
+description: Open positions and how to apply
 nav: true
 nav_order: 8
 ---
