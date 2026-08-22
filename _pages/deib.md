@@ -18,7 +18,7 @@ As a researcher, a mentor, and a member of the LGBTQ+ community, Mike is dedicat
 
 </div>
 <div class="col-sm-4">
-{% include figure.liquid path="assets/img/deib/you-belong-here.webp" title="You belong here" class="img-fluid rounded" %}
+{% include figure.liquid path="assets/img/misc/lab-poster-chickens.jpg" title="In this lab, we believe..." class="img-fluid rounded" %}
 </div>
 </div>
 
