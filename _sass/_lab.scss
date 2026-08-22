@@ -579,3 +579,94 @@ body.has-banner {
     padding-bottom: 1rem;
   }
 }
+
+// Research page accordion: each panel keyed to the navy/orange/steel cycle
+.research-accordion {
+  .card {
+    background: transparent;
+    border: none;
+    border-left: 4px solid var(--global-theme-color);
+    border-radius: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  .card:nth-of-type(2) {
+    border-left-color: var(--global-hover-color);
+  }
+
+  .card:nth-of-type(3) {
+    border-left-color: var(--brand-steel);
+  }
+
+  .card-header {
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+
+  .accordion-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.9rem 1.25rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--global-theme-color);
+    background: none;
+    border: none;
+    text-align: left;
+
+    &:hover {
+      color: var(--global-hover-color);
+    }
+  }
+
+  .card:nth-of-type(2) .accordion-toggle {
+    color: var(--global-hover-color);
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+
+  .card:nth-of-type(3) .accordion-toggle {
+    color: var(--brand-steel);
+
+    &:hover {
+      color: var(--global-hover-color);
+    }
+  }
+
+  .accordion-icon {
+    flex-shrink: 0;
+    margin-left: 1rem;
+    transition: transform 0.2s ease;
+  }
+
+  .accordion-toggle.collapsed .accordion-icon {
+    transform: rotate(-90deg);
+  }
+
+  .card-body {
+    padding: 0 1.25rem 1.5rem;
+
+    h3 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-top: 1.5rem;
+      color: var(--global-text-color);
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+
+    .caption {
+      text-align: center;
+      font-size: 0.85rem;
+      opacity: 0.8;
+      margin-top: 0.5rem;
+    }
+  }
+}
