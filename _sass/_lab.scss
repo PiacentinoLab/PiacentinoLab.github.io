@@ -206,10 +206,13 @@ article p a {
   }
 }
 
-// People page: bigger "Meet the Lab." subtitle, and shrink headshots ~10%
-.layout-profiles .post-description {
+// Page subtitle: match the People page's larger "Meet the Lab." size
+// site-wide instead of leaving it People-only (base theme default is 0.875rem)
+.post-description {
   font-size: 1.25rem;
 }
+
+// People page: shrink headshots ~10%
 
 @media (min-width: 576px) {
   .layout-profiles .profile {
