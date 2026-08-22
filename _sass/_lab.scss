@@ -149,7 +149,7 @@ article p a {
 // Divider between sections (home page, people page) -- cycles navy / orange / steel blue
 .section-divider {
   border: none;
-  border-top: 2pt solid var(--global-theme-color);
+  border-top: 1px solid var(--global-theme-color);
   margin: 2.5rem 0 1.5rem;
 }
 
