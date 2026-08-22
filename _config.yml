@@ -7,15 +7,15 @@ first_name: Michael
 middle_name:
 last_name: Piacentino
 contact_note: >
-  [Placeholder] The lab email above is the best way to reach us.
+  ...if you're interested in joining our group, collaborating, or just discussing lipids and EMT! Email is the best way to reach us.
 description: >
-  The Piacentino Lab at Johns Hopkins University School of Medicine. [Placeholder: one-sentence lab description for search engines/RSS.]
+  The Piacentino Lab at Johns Hopkins University School of Medicine studies how cellular lipids drive epithelial-to-mesenchymal transition and migration of the neural crest during embryonic development.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: neural crest, developmental biology, genomics, Johns Hopkins, Piacentino Lab # add your own keywords or leave empty
+keywords: neural crest, developmental biology, EMT, epithelial-to-mesenchymal transition, cell migration, lipid metabolism, ceramide, Johns Hopkins, Piacentino Lab # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🧬 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: logo/logo-icon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://piacentinolab.com # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
