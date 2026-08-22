@@ -110,12 +110,13 @@ html[data-theme="dark"] {
 .home-address {
   display: flex;
   align-items: center;
-  gap: 1.25rem;
-  margin-top: 2rem;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-top: 0.75rem;
   clear: both;
 
   img {
-    height: 64px;
+    height: 38px;
     width: auto;
     flex-shrink: 0;
   }
