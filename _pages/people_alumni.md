@@ -11,5 +11,3 @@
 - Madison Shields (SARE Scholar, Summer 2024)
 - Megan Butler (BCMB Rotation, 2023)
 - Sydney Pettit (BCMB Rotation, 2023)
-
-We're looking for passionate graduate students, undergraduates, and postdoctoral fellows to join our team — see our [Join](/join/) page!

@@ -9,26 +9,33 @@
 :root {
   --global-theme-color: #17517e;
   --global-hover-color: #d96738;
+  --brand-steel: #6bb2cc;
 }
 
 html[data-theme="dark"] {
   --global-theme-color: #7fc1de;
   --global-hover-color: #e88a5e;
+  --brand-steel: #8fcbe0;
 }
 
-// Publications page: saturated, alternating year headers instead of washed-out grey
+// Publications page: saturated year headers, cycling navy / orange / steel blue
 .publications h2.bibliography {
   font-weight: 700;
 }
 
-.publications h2.bibliography:nth-of-type(odd) {
+.publications h2.bibliography:nth-of-type(3n + 1) {
   color: var(--global-theme-color);
   border-top-color: var(--global-theme-color);
 }
 
-.publications h2.bibliography:nth-of-type(even) {
+.publications h2.bibliography:nth-of-type(3n + 2) {
   color: var(--global-hover-color);
   border-top-color: var(--global-hover-color);
+}
+
+.publications h2.bibliography:nth-of-type(3n) {
+  color: var(--brand-steel);
+  border-top-color: var(--brand-steel);
 }
 
 .publications-footnote {
@@ -128,11 +135,23 @@ article p a {
   font-weight: 600;
 }
 
-// Divider between sections on the home page (news / selected publications)
+// Divider between sections (home page, people page) -- cycles navy / orange / steel blue
 .section-divider {
   border: none;
   border-top: 2pt solid var(--global-theme-color);
   margin: 2.5rem 0 1.5rem;
+}
+
+.section-divider:nth-of-type(3n + 1) {
+  border-top-color: var(--global-theme-color);
+}
+
+.section-divider:nth-of-type(3n + 2) {
+  border-top-color: var(--global-hover-color);
+}
+
+.section-divider:nth-of-type(3n) {
+  border-top-color: var(--brand-steel);
 }
 
 // Remove the drop shadow on the home page logo graphic only
@@ -147,13 +166,24 @@ article p a {
   }
 }
 
+// People page: bigger "Meet the Lab." subtitle, and shrink headshots ~10%
+.layout-profiles .post-description {
+  font-size: 1.25rem;
+}
+
+@media (min-width: 576px) {
+  .layout-profiles .profile {
+    width: 27%;
+  }
+}
+
 // Address block under the mission statement on the home page
 .home-address {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 1rem;
-  margin-top: 2rem;
+  margin-top: 3.5rem;
 
   img {
     flex-shrink: 0;
