@@ -6,6 +6,8 @@ nav: true
 nav_order: 4
 ---
 
+<div class="page-banner" style="background-image: url('{{ "/assets/img/research/cranial-ncc-explant.jpg" | relative_url }}');"></div>
+
 <!-- _pages/publications.md -->
 
 <!-- Bibsearch Feature -->
