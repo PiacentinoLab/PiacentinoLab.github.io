@@ -100,6 +100,11 @@ html[data-theme="dark"] {
   margin-bottom: 1.5rem;
 }
 
+// Bold the inline body links on the home page so they read more clearly as links
+.layout-about article a {
+  font-weight: 600;
+}
+
 // Divider between sections on the home page (news / selected publications)
 .section-divider {
   border: none;
