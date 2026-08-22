@@ -10,11 +10,11 @@ nav: false
 
 We're excited to have you on our team! Our group is committed to maintaining an exciting, supportive, educational, and productive environment, and we expect you to play your part in keeping this atmosphere thriving. We hope you will learn a lot about cell and developmental biology, build new skills at the bench and at the computer, and contribute new knowledge in these areas to the greater scientific community. Along the way, we hope you will have fun with your research projects and form new friendships and colleague networks that will serve you long after you have left the lab.
 
-This lab manual will forever be a work in progress which is designed to help Piacentino lab members at all stages by providing information on what we expect of one another, how we conduct ourselves, how the lab runs, how to get help, and more. *Please help us maintain this resource*: let Mike know if you have any additions, clarifications, or corrections to suggest!
+This lab handbook will forever be a work in progress which is designed to help Piacentino lab members at all stages by providing information on what we expect of one another, how we conduct ourselves, how the lab runs, how to get help, and more. *Please help us maintain this resource*: let Mike know if you have any additions, clarifications, or corrections to suggest!
 
-To make sure everyone is on the same page when they join our group, new lab members are expected to read and understand this manual, and discuss concerns with Mike. In addition, we hope that this manual will come in handy later, so if you're wondering about something, check this document out for answers or pointers to new resources! And if you have a question about something NOT in the manual, ask Mike, and we can work together to add it for the future.
+To make sure everyone is on the same page when they join our group, new lab members are expected to read and understand this handbook, and discuss concerns with Mike. In addition, we hope that this handbook will come in handy later, so if you're wondering about something, check this document out for answers or pointers to new resources! And if you have a question about something NOT in the handbook, ask Mike, and we can work together to add it for the future.
 
-This lab manual was inspired by the lab manuals of many great labs, most notably the Aly, Barber, Blind, and Gilbert labs. We want to thank these groups for generously sharing, and for leading our community in building supportive research groups dedicated to clear communication. This lab manual is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License (CC NC 4.0). If you're writing your own lab manual, we welcome you to take inspiration from ours (with appropriate citations).
+This lab handbook was inspired by the lab handbooks of many great labs, most notably the Aly, Barber, Blind, and Gilbert labs. We want to thank these groups for generously sharing, and for leading our community in building supportive research groups dedicated to clear communication. This lab handbook is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License (CC NC 4.0). If you're writing your own lab handbook, we welcome you to take inspiration from ours (with appropriate citations).
 
 **Lab Address**:
 
@@ -54,7 +54,7 @@ Science is hard, but it's also fun. We want to make sure that everyone experienc
 
 - Always strive for your best -- today's best might look different from yesterday or tomorrow, and it is the same for everyone else around
 - Behave professionally, responsibly, reliably, and with integrity
-- Put in the time and effort needed to move your project forward -- a strong PhD typically takes at least 50 hours of effort per week, though this varies at different phases of the project
+- Put in the time and effort needed to move your project forward -- a strong PhD typically takes more than 40 hours of effort per week, though this varies at different phases of the project
 - Take ownership of your project -- find the question that interests you, build/draw a mechanistic model to explain your data, identify the assumptions it makes, and design experiments to test those assumptions
 - Take ownership of your own experience and education -- keep up to date with the literature, with your training, and with developing new skillsets
 - Work with urgency, but work carefully and ask for help
