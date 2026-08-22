@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/research/";
           },
+        },{id: "nav-news",
+          title: "news",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
+          },
         },{id: "nav-publications",
           title: "publications",
           description: "",
@@ -31,7 +38,7 @@ ninja.data = [{
             window.location.href = "/people/";
           },
         },{id: "nav-lab-photos",
-          title: "Lab Photos",
+          title: "lab photos",
           description: "Moments from life in the Piacentino Lab.",
           section: "Navigation",
           handler: () => {
@@ -51,21 +58,35 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/join/";
           },
-        },{id: "nav-news",
-          title: "news",
+        },{id: "news-our-paper-on-how-smpd3-expression-is-spatially-regulated-in-the-developing-embryo-by-soxe-factors-is-out-now-in-developmental-biology",
+          title: 'Our paper on how SMPD3 expression is spatially regulated in the developing embryo...',
           description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/news/";
-          },
-        },{id: "news-our-collaboration-with-the-strobl-mazzulla-lab-on-mir-203-and-extracellular-vesicle-communication-between-neural-crest-and-placode-cells-is-out-now-in-plos-biology",
+          section: "News",},{id: "news-our-collaboration-with-the-strobl-mazzulla-lab-on-mir-203-and-extracellular-vesicle-communication-between-neural-crest-and-placode-cells-is-out-now-in-plos-biology",
           title: 'Our collaboration with the Strobl-Mazzulla lab on miR-203 and extracellular vesicle communication between...',
           description: "",
           section: "News",},{id: "news-we-are-excited-to-thank-the-nigms-for-supporting-our-work-through-an-r35-award-can-t-wait-to-discover-how-membrane-fluidity-influences-developmental-cell-migration",
           title: 'We are excited to thank the NIGMS for supporting our work through an...',
           description: "",
+          section: "News",},{id: "news-mike-was-awarded-the-h-w-mossman-early-career-investigator-award-in-developmental-biology-from-the-american-association-for-anatomy-presented-at-the-aaa-annual-meeting-in-portland-or-this-march",
+          title: 'Mike was awarded the H.W. Mossman Early-Career Investigator Award in Developmental Biology from...',
+          description: "",
+          section: "News",},{id: "news-congrats-to-alli-mancini-for-winning-the-best-postdoctoral-poster-prize-at-the-mid-atlantic-sdb-meeting-in-richmond-va",
+          title: 'Congrats to Alli Mancini for winning the Best Postdoctoral Poster Prize at the...',
+          description: "",
+          section: "News",},{id: "news-congratulations-to-stephanie-peralta-for-being-awarded-a-diversity-supplement-from-the-nidcr",
+          title: 'Congratulations to Stephanie Peralta for being awarded a Diversity Supplement from the NIDCR!...',
+          description: "",
+          section: "News",},{id: "news-congratulations-to-mallorie-jenne-on-being-awarded-an-nih-f31-predoctoral-fellowship-nidcr-to-support-her-work-on-raftlin-2-in-neural-crest-cell-specification-and-migration",
+          title: 'Congratulations to Mallorie Jenne on being awarded an NIH F31 predoctoral fellowship (NIDCR)...',
+          description: "",
+          section: "News",},{id: "news-congratulations-to-alex-pomper-for-being-awarded-a-provost-s-undergraduate-research-award-pura-from-johns-hopkins-to-support-his-research-in-the-lab",
+          title: 'Congratulations to Alex Pomper for being awarded a Provost’s Undergraduate Research Award (PURA)...',
+          description: "",
           section: "News",},{id: "news-new-preprint-stephanie-s-work-on-lipid-mediated-reinforcement-of-fgf-mapk-signaling-in-otic-placode-specification-is-up-on-biorxiv",
           title: 'New preprint! Stephanie’s work on lipid-mediated reinforcement of FGF/MAPK signaling in otic placode...',
+          description: "",
+          section: "News",},{id: "news-congrats-to-alli-mancini-for-winning-the-best-postdoctoral-flash-talk-prize-at-the-mid-atlantic-sdb-meeting-in-pittsburgh-pa",
+          title: 'Congrats to Alli Mancini for winning the Best Postdoctoral Flash Talk Prize at...',
           description: "",
           section: "News",},{id: "news-thank-you-to-the-emerald-foundation-inc-for-supporting-our-work-through-a-young-investigator-award",
           title: 'Thank you to the Emerald Foundation, Inc. for supporting our work through a...',
