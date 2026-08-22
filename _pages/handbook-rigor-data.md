@@ -83,6 +83,10 @@ Within an experiment's data folder, there will be a few iterations of analysis a
   - "raw_source_data" -- folder compiling all the measurement files from the experiment; this allows a "one stop source" of numbers for analysis
   - Extras: graphs or representative images that encapsulate the results of the experiment
 
+Example experiment data folder:
+
+{% include figure.liquid path="assets/img/handbook/data-folder-example.png" title="Example experiment data folder structure" class="img-fluid rounded" alt="Annotated example folder structure showing an experiment folder broken into dated subfolders, each containing czi, jpgs, measurements, and rois folders, plus macros and analysis files at the top level." %}
+
 ### Storage
 
 It is critical to store data in a format that is Findable, Accessible, Interoperable, and Reusable (FAIR). "Lost" data is as good as the experiment having never been performed, and this can result from a hard drive failure when the data is stored in one place, or data can be "lost" because the labeling is unclear and we can't trace back the experiment's details. Further, sustained good Data Management practices is a requirement for our federal funding.
