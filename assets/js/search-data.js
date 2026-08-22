@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-diversity-equity-inclusion-and-belonging",
           title: "Diversity, Equity, Inclusion and Belonging",
-          description: "Our commitment to diversity, equity, inclusion, and belonging, and our mentoring philosophy.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/deib/";
