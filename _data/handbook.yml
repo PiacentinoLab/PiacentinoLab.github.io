@@ -48,6 +48,18 @@
     - title: Communication
       anchor: communication
 
+- title: Rigor, Reproducibility & Data Management
+  slug: rigor-data
+  subsections:
+    - title: Rigor
+      anchor: rigor
+    - title: Data Reproducibility
+      anchor: data-reproducibility
+    - title: Data Management
+      anchor: data-management
+    - title: Authorship
+      anchor: authorship
+
 - title: Laboratory Conduct & Biosafety
   slug: biosafety
   subsections:
@@ -71,18 +83,6 @@
       anchor: needlesticks-and-exposure
     - title: Spill Clean Up
       anchor: spill-clean-up
-
-- title: Rigor, Reproducibility & Data Management
-  slug: rigor-data
-  subsections:
-    - title: Rigor
-      anchor: rigor
-    - title: Data Reproducibility
-      anchor: data-reproducibility
-    - title: Data Management
-      anchor: data-management
-    - title: Authorship
-      anchor: authorship
 
 - title: Checklists
   slug: checklists
