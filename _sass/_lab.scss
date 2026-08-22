@@ -18,22 +18,34 @@ html[data-theme="dark"] {
   --brand-steel: #8fcbe0;
 }
 
-// Publications page: saturated year headers, cycling navy / orange / steel blue
-.publications h2.bibliography {
+// Publications page + news page: saturated year headers, cycling navy / orange / steel blue
+.publications h2.bibliography,
+.news h2.bibliography {
   font-weight: 700;
 }
 
-.publications h2.bibliography:nth-of-type(3n + 1) {
+// News page doesn't inherit .publications' base year-header styling; add it here
+.news h2.bibliography {
+  border-top: 1px solid var(--global-divider-color);
+  padding-top: 1rem;
+  margin-top: 2rem;
+  text-align: right;
+}
+
+.publications h2.bibliography:nth-of-type(3n + 1),
+.news h2.bibliography:nth-of-type(3n + 1) {
   color: var(--global-theme-color);
   border-top-color: var(--global-theme-color);
 }
 
-.publications h2.bibliography:nth-of-type(3n + 2) {
+.publications h2.bibliography:nth-of-type(3n + 2),
+.news h2.bibliography:nth-of-type(3n + 2) {
   color: var(--global-hover-color);
   border-top-color: var(--global-hover-color);
 }
 
-.publications h2.bibliography:nth-of-type(3n) {
+.publications h2.bibliography:nth-of-type(3n),
+.news h2.bibliography:nth-of-type(3n) {
   color: var(--brand-steel);
   border-top-color: var(--brand-steel);
 }
@@ -80,13 +92,15 @@ html[data-theme="dark"] {
     img {
       flex: 1 1 0;
       height: 220px;
-      object-fit: cover;
+      object-fit: contain;
+      background: var(--global-card-bg-color);
     }
   }
 
   figure:not(.multi) img {
     height: 260px;
-    object-fit: cover;
+    object-fit: contain;
+    background: var(--global-card-bg-color);
   }
 
   figcaption {
@@ -214,6 +228,11 @@ article p a {
 // Name / pronouns / title / email block at the top of each People page bio
 .profile-meta {
   margin-bottom: 1rem;
+}
+
+// Extra breathing room above each subsection on the Join page
+.join-page h3 {
+  margin-top: 3rem;
 }
 
 // Shrink the bottom contact icon row ~15%, and bump up the contact note text ~10%

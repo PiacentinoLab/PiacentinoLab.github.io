@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /labphotos/
-title: Lab Photos
+title: lab photos
 description: Moments from life in the Piacentino Lab.
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
 <div class="lab-photo-gallery">
