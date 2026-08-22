@@ -1,7 +1,6 @@
 ### Mike Piacentino, PhD
 
-**he/him/his | PI**<br>
-*michaelpiacentino [at] jhmi [dot] edu*
+<p class="profile-meta"><strong>he/him/his | PI</strong><br><em>michaelpiacentino [at] jhmi [dot] edu</em></p>
 
 Mike is an Assistant Professor in the Department of Cell Biology at the Johns Hopkins University School of Medicine. Mike received his PhD from Boston University where he studied skeletal patterning in sea urchin embryos. He fell in love with neural crest cells and chick embryology as a postdoc with Marianne Bronner at Caltech, sparking his interest in lipid metabolism during cell migration.
 

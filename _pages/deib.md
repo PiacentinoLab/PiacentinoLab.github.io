@@ -2,13 +2,12 @@
 layout: page
 permalink: /deib/
 title: Diversity, Equity, Inclusion and Belonging
-description: Our commitment to diversity, equity, inclusion, and belonging, and our mentoring philosophy.
 nav: true
 nav_order: 6
 ---
 
-<div class="row align-items-center">
-  <div class="col-sm-8">
+<div class="row align-items-center" markdown="1">
+<div class="col-sm-8" markdown="1">
 
 ## Diversity, Equity, Inclusion and Belonging
 
@@ -16,10 +15,10 @@ As a researcher, a mentor, and a member of the LGBTQ+ community, Mike is dedicat
 
 [Poster](https://sammykatta.com/diversity) and [commitment pledge](https://sammykatta.com/pledge) courtesy of Sammy Katta.
 
-  </div>
-  <div class="col-sm-4">
-    {% include figure.liquid path="assets/img/deib/you-belong-here.webp" title="You belong here" class="img-fluid rounded" %}
-  </div>
+</div>
+<div class="col-sm-4">
+{% include figure.liquid path="assets/img/deib/you-belong-here.webp" title="You belong here" class="img-fluid rounded" %}
+</div>
 </div>
 
 ## Mentoring Philosophy
