@@ -101,6 +101,13 @@ html[data-theme="dark"] {
   margin-bottom: 1.5rem;
 }
 
+// Divider between sections on the home page (news / selected publications)
+.section-divider {
+  border: none;
+  border-top: 2pt solid var(--global-theme-color);
+  margin: 2.5rem 0 1.5rem;
+}
+
 // Remove the drop shadow on the home page logo graphic only
 .layout-about .profile img {
   box-shadow: none !important;
@@ -113,10 +120,9 @@ html[data-theme="dark"] {
   justify-content: flex-start;
   gap: 1rem;
   margin-top: 0.75rem;
-  clear: both;
 
   img {
-    height: 38px;
+    height: 48px;
     width: auto;
     flex-shrink: 0;
   }
