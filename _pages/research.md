@@ -26,7 +26,7 @@ We use the chicken neural crest as a tractable model system to study the mechani
 
 </div>
 <div class="col-sm-6">
-{% include video.liquid path="assets/video/wm-timelapse.mp4" class="img-fluid rounded z-depth-1 lab-media" autoplay=true controls=true loop=true muted=true poster="assets/img/research/wm-timelapse-poster.jpg" %}
+{% include video.liquid path="assets/video/wm-timelapse.mp4" class="img-fluid rounded z-depth-1 lab-media research-media-narrow" autoplay=true controls=true loop=true muted=true poster="assets/img/research/wm-timelapse-poster.jpg" %}
 <div class="caption">Whole-mount timelapse of neural crest cell migration.</div>
 </div>
 </div>
@@ -43,7 +43,7 @@ EMT is often punctuated by changes in expression of diverse lipid metabolizing e
 
 <div class="row align-items-center research-media-row" markdown="1">
 <div class="col-sm-6">
-{% include figure.liquid path="assets/img/research/lipid-heatmap.jpg" title="Lipid metabolizing gene expression heatmap" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/research/lipid-heatmap.jpg" title="Lipid metabolizing gene expression heatmap" class="img-fluid rounded z-depth-1 research-media-narrow" %}
 <div class="caption">Expression dynamics of lipid effector genes between premigratory and migratory avian neural crest cells.</div>
 </div>
 <div class="col-sm-6" markdown="1">

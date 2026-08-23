@@ -608,6 +608,16 @@ body.has-banner {
   .research-media-row {
     margin-top: 1.5rem;
   }
+
+  // Scale to 70% width (height follows automatically, preserving aspect
+  // ratio) and center within the column
+  .research-media-narrow {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .research-page .caption {
