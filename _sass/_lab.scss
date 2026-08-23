@@ -522,12 +522,10 @@ body.has-banner {
   }
 }
 
-// Shared "section break" format: alternating navy/orange/steel-blue
-// divider lines above every h2/h3, with h2 bold+larger as the primary
-// landmark and h3 smaller/lighter as a clearly secondary sub-heading.
-// Used by the Lab Handbook and the Research page.
-.handbook-content,
-.research-page {
+// "Section break" format: alternating navy/orange/steel-blue divider
+// lines above every h2/h3, with h2 bold+larger as the primary landmark
+// and h3 smaller/lighter as a clearly secondary sub-heading.
+.handbook-content {
   h2,
   h3 {
     border-top: 1px solid var(--global-divider-color);
@@ -566,6 +564,49 @@ body.has-banner {
   h2:nth-of-type(3n),
   h3:nth-of-type(3n) {
     border-top-color: var(--brand-steel);
+  }
+}
+
+// Research page: each top-level .research-section carries its own accent
+// color (set via --section-accent), applied to both its h2 and any h3
+// nested inside a two-column media row -- can't rely on :nth-of-type here
+// since the h3s move in and out of .col wrappers, changing their sibling
+// count context
+.research-page {
+  .research-section {
+    h2,
+    h3 {
+      border-top: 1px solid var(--section-accent);
+      padding-top: 1.25rem;
+    }
+
+    h2 {
+      margin-top: 2rem;
+      font-weight: 700;
+      color: var(--section-accent);
+    }
+
+    h3 {
+      margin-top: 1.5rem;
+      font-size: 1.4rem;
+      font-weight: 500;
+    }
+  }
+
+  .research-section:nth-of-type(1) {
+    --section-accent: var(--global-theme-color);
+  }
+
+  .research-section:nth-of-type(2) {
+    --section-accent: var(--global-hover-color);
+  }
+
+  .research-section:nth-of-type(3) {
+    --section-accent: var(--brand-steel);
+  }
+
+  .research-media-row {
+    margin-top: 1.5rem;
   }
 }
 
