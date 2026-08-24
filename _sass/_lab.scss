@@ -79,28 +79,43 @@ html[data-theme="dark"] {
     margin: 0;
   }
 
+  // The fixed-size "frame" lives on the <picture> wrapper, not the <img>
+  // itself: medium-zoom computes its zoom scale by comparing the img
+  // element's own rendered box to its natural pixel size, so if the img
+  // were forced into a box with a different aspect ratio (via a fixed
+  // height + object-fit), the zoomed-in view would inherit that wrong
+  // box shape instead of the source photo's true proportions. Letting the
+  // img auto-size (max-width/max-height only) keeps its box proportional
+  // to the natural image at every size, so zoom scales it correctly.
   img {
-    width: 100%;
     display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
     border-radius: 8px;
+    background: var(--global-card-bg-color);
   }
 
   figure.multi .photo-row {
     display: flex;
     gap: 0.5rem;
 
-    img {
+    picture {
       flex: 1 1 0;
       height: 220px;
-      object-fit: contain;
-      background: var(--global-card-bg-color);
     }
   }
 
-  figure:not(.multi) img {
+  figure:not(.multi) picture {
     height: 260px;
-    object-fit: contain;
-    background: var(--global-card-bg-color);
   }
 
   figcaption {
@@ -191,10 +206,13 @@ article p a {
   }
 }
 
-// People page: bigger "Meet the Lab." subtitle, and shrink headshots ~10%
-.layout-profiles .post-description {
+// Page subtitle: match the People page's larger "Meet the Lab." size
+// site-wide instead of leaving it People-only (base theme default is 0.875rem)
+.post-description {
   font-size: 1.25rem;
 }
+
+// People page: shrink headshots ~10%
 
 @media (min-width: 576px) {
   .layout-profiles .profile {
@@ -358,3 +376,270 @@ body.has-banner {
     }
   }
 }
+
+// Resources page: image column + a two-section (Internal/External) link list
+.resources-page {
+  margin-top: 1rem;
+
+  .resources-image {
+    text-align: center;
+
+    img {
+      max-width: 85%;
+    }
+  }
+
+  .resources-list {
+    padding-left: 2rem;
+
+    h3 {
+      font-weight: 700;
+      margin-top: 2.5rem;
+      margin-bottom: 0.5rem;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+
+    h3:nth-of-type(1) {
+      color: var(--global-theme-color);
+    }
+
+    h3:nth-of-type(2) {
+      color: var(--global-hover-color);
+    }
+
+    ul {
+      list-style: disc;
+      padding-left: 1.25rem;
+      margin-bottom: 0;
+    }
+
+    li {
+      padding: 0.85rem 0;
+      border-bottom: 1px solid var(--global-divider-color);
+      line-height: 1.5;
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+}
+
+// Lab Handbook: persistent sidebar (every chapter + subsection, always
+// expanded) beside the current chapter's content. The section link
+// highlights via a Liquid comparison (page.handbook_slug); subsection
+// links highlight via scrollspy in assets/js/handbook.js.
+.handbook-toc {
+  top: 5rem;
+  max-height: calc(100vh - 6rem);
+  overflow-y: auto;
+  padding-right: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.handbook-toc-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-size: 0.7rem;
+  color: var(--global-text-color);
+  opacity: 0.6;
+  margin-bottom: 1rem;
+}
+
+.handbook-download-btn {
+  display: block;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--global-theme-color);
+  border: 1px solid var(--global-theme-color);
+  border-radius: 6px;
+  padding: 0.45rem 0.5rem;
+  margin-top: 1.5rem;
+
+  &:hover {
+    color: #fff;
+    background-color: var(--global-theme-color);
+    text-decoration: none;
+  }
+}
+
+.handbook-toc-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.handbook-toc-section {
+  margin-bottom: 1rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.handbook-toc-section-link {
+  display: block;
+  font-weight: 600;
+  color: var(--global-text-color);
+  padding: 0.15rem 0;
+
+  &:hover {
+    color: var(--global-hover-color);
+  }
+
+  &.current {
+    color: var(--global-theme-color);
+  }
+}
+
+.handbook-toc-subsections {
+  list-style: none;
+  padding-left: 0.75rem;
+  margin: 0.35rem 0 0;
+  border-left: 2px solid var(--global-divider-color);
+}
+
+.handbook-toc-sub-link {
+  display: block;
+  padding: 0.2rem 0 0.2rem 0.65rem;
+  margin-left: -2px;
+  color: var(--global-text-color);
+  border-left: 2px solid transparent;
+
+  &:hover {
+    color: var(--global-hover-color);
+  }
+
+  &.active {
+    color: var(--global-theme-color);
+    border-left-color: var(--global-theme-color);
+    font-weight: 600;
+  }
+}
+
+// "Section break" format: alternating navy/orange/steel-blue divider
+// lines above every h2/h3, with h2 bold+larger as the primary landmark
+// and h3 smaller/lighter as a clearly secondary sub-heading.
+.handbook-content {
+  h2,
+  h3 {
+    border-top: 1px solid var(--global-divider-color);
+    padding-top: 1.25rem;
+  }
+
+  h2 {
+    margin-top: 3rem;
+    scroll-margin-top: 85px;
+    font-weight: 700;
+  }
+
+  h3 {
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+
+  h2:first-of-type {
+    margin-top: 2rem;
+  }
+
+  // Alternating navy / orange / steel blue dividers, same cycle used
+  // for section dividers elsewhere on the site -- h2 and h3 cycle
+  // independently of one another
+  h2:nth-of-type(3n + 1),
+  h3:nth-of-type(3n + 1) {
+    border-top-color: var(--global-theme-color);
+  }
+
+  h2:nth-of-type(3n + 2),
+  h3:nth-of-type(3n + 2) {
+    border-top-color: var(--global-hover-color);
+  }
+
+  h2:nth-of-type(3n),
+  h3:nth-of-type(3n) {
+    border-top-color: var(--brand-steel);
+  }
+}
+
+// Research page: each top-level .research-section carries its own accent
+// color (set via --section-accent), applied to both its h2 and any h3
+// nested inside a two-column media row -- can't rely on :nth-of-type here
+// since the h3s move in and out of .col wrappers, changing their sibling
+// count context
+.research-page {
+  .research-section {
+    h2,
+    h3 {
+      border-top: 1px solid var(--section-accent);
+      padding-top: 1.25rem;
+    }
+
+    h2 {
+      margin-top: 2rem;
+      font-weight: 700;
+      color: var(--section-accent);
+    }
+
+    h3 {
+      margin-top: 1.5rem;
+      font-size: 1.4rem;
+      font-weight: 500;
+    }
+  }
+
+  .research-section:nth-of-type(1) {
+    --section-accent: var(--global-theme-color);
+  }
+
+  .research-section:nth-of-type(2) {
+    --section-accent: var(--global-hover-color);
+  }
+
+  .research-section:nth-of-type(3) {
+    --section-accent: var(--brand-steel);
+  }
+
+  .research-media-row {
+    margin-top: 1.5rem;
+  }
+
+  // Scale to 70% width (height follows automatically, preserving aspect
+  // ratio) and center within the column
+  .research-media-narrow {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.research-page .caption {
+  text-align: center;
+  font-size: 0.85rem;
+  opacity: 0.8;
+  margin-top: 0.5rem;
+}
+
+.handbook-updated {
+  font-size: 0.8rem;
+  opacity: 0.7;
+  margin-top: -0.5rem;
+}
+
+@media (max-width: 576px) {
+  .handbook-toc {
+    position: static;
+    max-height: none;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-bottom: 1rem;
+  }
+}
+
