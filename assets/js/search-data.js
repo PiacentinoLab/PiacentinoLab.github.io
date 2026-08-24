@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-research",
           title: "research",
-          description: "How does membrane organization control epithelial-to-mesenchymal transition and cell migration during development and disease?",
+          description: "How do cells change their membranes to change their fate?",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
