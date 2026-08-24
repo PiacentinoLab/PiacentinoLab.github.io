@@ -2,7 +2,7 @@
 layout: page
 permalink: /deib/
 title: diversity, equity, inclusion and belonging
-nav_title: deib
+nav_title: DEIB
 nav: true
 nav_order: 7
 ---
