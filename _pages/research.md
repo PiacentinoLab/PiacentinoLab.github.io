@@ -2,7 +2,7 @@
 layout: page
 title: research
 permalink: /research/
-description: How does membrane organization control epithelial-to-mesenchymal transition and cell migration during development and disease?
+description: How do cells change their membranes to change their fate?
 nav: true
 nav_order: 2
 ---
@@ -11,23 +11,21 @@ nav_order: 2
 
 <div class="research-section" markdown="1">
 
-## EMT and Cell Migration
-
-### The Question
-
-Epithelial-to-mesenchymal transition, or EMT, is a major cellular lifestyle change that results in cells with the ability to migrate long distances in the body. This process is critical for normal embryonic development and for the formation of many organs. However, EMT mechanisms are often co-opted in disease states such as cancer metastasis. How does membrane organization control EMT and cell migration during development and disease?
+## The neural crest: a stem cell population that breaks the rules
 
 <div class="row align-items-center research-media-row" markdown="1">
 <div class="col-sm-6" markdown="1">
 
-### Our Approach
+Over the course of development, a single fertilized cell gives rise to trillions of cells organized into tissues, organs, and systems — a process that depends on progenitor populations that migrate, change identity, and build structures far from where they originated. Our lab focuses on one of the most important of these populations: the **neural crest**.
 
-We use the chicken neural crest as a tractable model system to study the mechanisms of EMT and cell migration. The neural crest is an embryonic cell population with remarkable multipotency and migratory ability, enabling it to contribute to diverse organ systems including the craniofacial skeleton and the peripheral nervous system {% cite piacentino2020review %}. By combining chick embryology with live imaging, molecular biology, and biochemistry, we can watch this transition unfold in real time. Insights gained from studying neural crest cells have the potential to inform novel therapeutic approaches to combat both congenital disorders and metastatic diseases.
+Neural crest cells are multipotent stem cells specific to vertebrate embryos, and they arise from the ectoderm but they don't play by the ectoderm's rules. Ectoderm classically gives rise to skin and the nervous system, while structures like bone, cartilage, and smooth muscle generally come from the mesoderm. Neural crest cells break that convention: after undergoing an epithelial-to-mesenchymal transition (EMT), delaminating, and migrating throughout the embryo, they go on to build much of our craniofacial skeleton and other typically-mesodermal tissues, alongside the peripheral nervous system, secretory cells of the adrenal gland, portions of the cardiovascular system, and even the melanocytes in our skin.
+
+Because neural crest cells contribute to so many different structures, disruptions to their formation, migration, or differentiation are responsible for as many as **1 in 3 congenital anomalies** — including cleft lip/palate, Hirschsprung disease, Waardenburg syndrome, and cancers such as neuroblastoma. We study normal neural crest development because understanding the normal program is what allows us to recognize, prevent, and eventually treat what happens when it goes wrong.
 
 </div>
 <div class="col-sm-6">
 {% include video.liquid path="assets/video/wm-timelapse.mp4" class="img-fluid rounded z-depth-1 lab-media research-media-narrow" autoplay=true controls=true loop=true muted=true poster="assets/img/research/wm-timelapse-poster.jpg" %}
-<div class="caption">Whole-mount timelapse of neural crest cell migration.</div>
+<div class="caption">Whole-mount timelapse of neural crest cells migrating away from the neural tube.</div>
 </div>
 </div>
 
@@ -35,22 +33,60 @@ We use the chicken neural crest as a tractable model system to study the mechani
 
 <div class="research-section" markdown="1">
 
-## Lipid Metabolism
-
-### The Question
-
-EMT is often punctuated by changes in expression of diverse lipid metabolizing enzymes, raising the question: what is the function of lipid metabolism during EMT?
+## EMT and migration: a developmental window into a broader cell biology
 
 <div class="row align-items-center research-media-row" markdown="1">
+<div class="col-sm-6">
+{% include figure.liquid path="assets/img/research/mig-merge.jpg" title="Neural crest cells delaminating from the neural tube" class="img-fluid rounded z-depth-1" %}
+<div class="caption">Cross-section of the dorsal neural tube: neural crest cells (magenta) delaminate from the surrounding neuroepithelium (cyan), whose apical, lumen-facing surface is marked in green.</div>
+</div>
+<div class="col-sm-6" markdown="1">
+
+Neural crest cells undergo a classic EMT and make some of the longest cell migrations in the body, making them a powerful *in vivo* model for studying EMT and cell migration more generally. Many of the same EMT programs that neural crest cells use during normal development are redeployed by cancer cells during invasion and metastasis. We take advantage of this: our use of developmental and cancer cell model systems in parallel act as natural comparison points to better understand and treat normal development and disease states.
+
+</div>
+</div>
+
+</div>
+
+<div class="research-section" markdown="1">
+
+## An emerging layer of regulation: lipid metabolism
+
+<div class="row align-items-center research-media-row" markdown="1">
+<div class="col-sm-6" markdown="1">
+
+A growing body of work has linked dysregulated lipid metabolism to EMT and metastasis in cancer. We recently found that lipid metabolism is *developmentally* reprogrammed in neural crest cells as well — some of the same enzymes and lipid species implicated in cancer invasion turn out to be under precise developmental control during normal embryogenesis.
+
+Our first two papers laid the foundation for this idea. We showed that **nSMase2** (encoded by *SMPD3*) is selectively upregulated in the neural crest right at the onset of EMT, where it generates ceramide at the plasma membrane. This local shift in membrane lipid composition drives receptor-mediated endocytosis of cadherins and Wnt/BMP signaling complexes, which in turn activates the pro-EMT transcriptional program (*SNAI2*, *SOX9*) and enables migration {% cite piacentino2022pnas %}. We then traced this back to the gene regulatory network controlling it: a *SMPD3* enhancer (Enh3) is directly bound by SOX10, with SOX9 acting upstream through SOX10, linking a core neural crest transcription factor circuit directly to a lipid-metabolizing effector gene {% cite piacentino2024smpd3 %}.
+
+</div>
 <div class="col-sm-6">
 {% include figure.liquid path="assets/img/research/lipid-heatmap.jpg" title="Lipid metabolizing gene expression heatmap" class="img-fluid rounded z-depth-1 research-media-narrow" %}
 <div class="caption">Expression dynamics of lipid effector genes between premigratory and migratory avian neural crest cells.</div>
 </div>
+</div>
+
+</div>
+
+<div class="research-section" markdown="1">
+
+## Open questions: what we're working on now
+
+<div class="row align-items-center research-media-row" markdown="1">
+<div class="col-sm-6">
+{% include video.liquid path="assets/video/chick-nc-explant.mp4" class="img-fluid rounded z-depth-1 lab-media" autoplay=true controls=true loop=true muted=true poster="assets/img/research/chick-nc-explant-poster.jpg" %}
+<div class="caption">Live imaging of a cultured chick neural crest explant, used to probe how membrane dynamics shape cell behavior outside the embryo.</div>
+</div>
 <div class="col-sm-6" markdown="1">
 
-### What We've Found
+This finding shapes the questions that drive most of our current projects:
 
-We have described the mechanism by which the production of the membrane lipid ceramide by the enzyme nSMase2 is necessary for neural crest EMT {% cite piacentino2022pnas %}. Our work shows that ceramide production in the neural crest is necessary for endocytosis, which promotes cell signaling, transcriptional regulation, de-adhesion, and delamination. Using transcriptomics, reporter constructs, and gene editing, we are now deciphering how different lipid metabolizing genes are transcriptionally regulated across embryonic space and time {% cite piacentino2024smpd3 %}.
+- How do developmental gene regulatory networks drive changes in lipid metabolism over time?
+- What is the mechanistic role of specific, differentially regulated lipid species in development and disease?
+- How does changing lipid content reshape membrane form and function — and how does that, in turn, feed back on cell behavior?
+
+We're pursuing these questions on multiple fronts, from a project on how the lipid-binding protein ApoD regulates otic placode specification, to differential lipidomic profiling comparing developmental and cancer EMT models. By integrating membrane biochemistry and biophysics — asking how altered lipid composition changes physical membrane properties like fluidity and curvature — with classic cell signaling and migration studies, we take a unique approach toward understanding fundamental questions in neural crest development.
 
 </div>
 </div>
@@ -59,28 +95,41 @@ We have described the mechanism by which the production of the membrane lipid ce
 
 <div class="research-section" markdown="1">
 
-## Membrane Biophysics
-
-### The Question
-
-Changing lipid metabolism has the potential to modulate the biophysical properties of the plasma membrane. How does temporally-controlled lipid metabolism alter membrane properties such as fluidity and rigidity, as well as the lateral organization of proteins and lipids within it?
+## Our Approach
 
 <div class="row align-items-center research-media-row" markdown="1">
 <div class="col-sm-6" markdown="1">
 
-### What We've Found
+We combine work in the **chick embryo** (*Gallus gallus*), our primary *in vivo* model system, with *in vitro* studies in cancer cell lines and human pluripotent stem cell-derived organoids and neural crest cells. Chick embryos are experimentally accessible and easily manipulated *in ovo*, letting us follow neural crest cells from neurulation through early migration with fine spatial and temporal control.
 
-We have found that ceramide production by nSMase2 increases plasma membrane fluidity to influence directional neural crest migration (manuscript in preparation).
+To ask these questions, we use a range of approaches:
+
+- **Embryonic microsurgery and electroporation** to perturb gene regulatory network components and lipid-metabolizing enzymes directly in the embryo
+- **Live imaging** of EMT and migration in whole mount and *ex vivo*, using fluorescent labels to track cell movements and biosensors to study molecular pathways of interest
+- **Lipidomic profiling** to identify and track specific lipid species across development and disease
+- **Membrane biophysical characterization** to link lipid composition to physical membrane properties
+- **Single-cell and bulk sequencing and computational analysis** to define the transcriptional programs that regulate neural crest development
+- **_In vitro_ modeling** to test whether mechanisms uncovered in the embryo hold in human cellular contexts
+
+Together, these approaches let us move from gene regulatory network to metabolic enzyme to membrane biophysics to cell behavior — and back to the congenital anomalies and cancers that result when any part of this chain breaks down.
 
 </div>
 <div class="col-sm-6">
-{% include figure.liquid path="assets/img/research/cranial-ncc-explant.jpg" title="Cranial neural crest explant" class="img-fluid rounded z-depth-1" %}
-<div class="caption">A cranial neural crest explant undergoing EMT and delamination in culture.</div>
+{% include figure.liquid path="assets/img/research/smpd3-soxe-preview.jpg" title="SOXE transcription factor expression in the neural tube" class="img-fluid rounded z-depth-1" %}
+<div class="caption">Cross-section of the neural tube showing SOXE transcription factor expression patterning <i>SMPD3</i> expression in the developing neural crest.</div>
+</div>
+</div>
 
-{% include video.liquid path="assets/video/nc-explant-timelapse.mp4" class="img-fluid rounded z-depth-1 lab-media" autoplay=true controls=true loop=true muted=true poster="assets/img/research/nc-explant-timelapse-poster.jpg" %}
-<div class="caption">Neural crest explant timelapse.</div>
 </div>
-</div>
+
+<div class="research-section" markdown="1">
+
+### Thank you to the folks funding our work!
+
+1. National Institute of Dental and Craniofacial Research (NIDCR): R00 (MLP) and F31 (MPJ)
+2. National Institute of General Medical Sciences (NIGMS): R35 (MLP)
+3. Emerald Foundation, Inc. Young Investigator Award (MLP)
+4. Vivian Thomas Scholars Initiative (SRP)
 
 </div>
 
