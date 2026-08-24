@@ -2,7 +2,7 @@
 layout: page
 permalink: /labphotos/
 title: lab photos
-description: Moments from life in the Piacentino Lab.
+description: Moments from life in the Piacentino Lab
 nav: true
 nav_order: 6
 ---

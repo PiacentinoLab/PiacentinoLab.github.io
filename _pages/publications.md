@@ -2,7 +2,6 @@
 layout: page
 permalink: /publications/
 title: publications
-banner: /assets/img/research/cranial-ncc-explant.jpg
 nav: true
 nav_order: 4
 ---
