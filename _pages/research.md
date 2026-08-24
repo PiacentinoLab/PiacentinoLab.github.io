@@ -25,7 +25,7 @@ Because neural crest cells contribute to so many different structures, disruptio
 </div>
 <div class="col-sm-6">
 {% include video.liquid path="assets/video/wm-timelapse.mp4" class="img-fluid rounded z-depth-1 lab-media research-media-narrow" autoplay=true controls=true loop=true muted=true poster="assets/img/research/wm-timelapse-poster.jpg" %}
-<div class="caption">Whole-mount timelapse of neural crest cells migrating away from the neural tube.</div>
+<div class="caption">Whole-mount timelapse of neural crest (green) migrating away from the neural tube in a developing chicken embryo.</div>
 </div>
 </div>
 
@@ -38,7 +38,7 @@ Because neural crest cells contribute to so many different structures, disruptio
 <div class="row align-items-center research-media-row" markdown="1">
 <div class="col-sm-6">
 {% include figure.liquid path="assets/img/research/mig-merge.jpg" title="Neural crest cells delaminating from the neural tube" class="img-fluid rounded z-depth-1" %}
-<div class="caption">Cross-section of the dorsal neural tube: neural crest cells (magenta) delaminate from the surrounding neuroepithelium (cyan), whose apical, lumen-facing surface is marked in green.</div>
+<div class="caption">Cross-section of the neural tube: neural crest cells (magenta) delaminate from the surrounding neuroepithelium (cyan).</div>
 </div>
 <div class="col-sm-6" markdown="1">
 
@@ -76,7 +76,7 @@ Our first two papers laid the foundation for this idea. We showed that **nSMase2
 <div class="row align-items-center research-media-row" markdown="1">
 <div class="col-sm-6">
 {% include video.liquid path="assets/video/chick-nc-explant.mp4" class="img-fluid rounded z-depth-1 lab-media" autoplay=true controls=true loop=true muted=true poster="assets/img/research/chick-nc-explant-poster.jpg" %}
-<div class="caption">Live imaging of a cultured chick neural crest explant, used to probe how membrane dynamics shape cell behavior outside the embryo.</div>
+<div class="caption">Live imaging of a cultured chick neural crest explant, used to track membrane dynamics during cell migration outside the embryo.</div>
 </div>
 <div class="col-sm-6" markdown="1">
 
@@ -116,7 +116,7 @@ Together, these approaches let us move from gene regulatory network to metabolic
 </div>
 <div class="col-sm-6">
 {% include figure.liquid path="assets/img/research/smpd3-soxe-preview.jpg" title="SOXE transcription factor expression in the neural tube" class="img-fluid rounded z-depth-1" %}
-<div class="caption">Cross-section of the neural tube showing SOXE transcription factor expression patterning <i>SMPD3</i> expression in the developing neural crest.</div>
+<div class="caption">Cross-section of the neural tube showing activity of two <i>SMPD3</i> enhancers, one active in the neural tube (magenta) and another active in the migrating neural crest (cyan), during embryonic development.</div>
 </div>
 </div>
 
