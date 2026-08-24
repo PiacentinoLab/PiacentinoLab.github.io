@@ -38,7 +38,7 @@ Because neural crest cells contribute to so many different structures, disruptio
 <div class="row align-items-center research-media-row" markdown="1">
 <div class="col-sm-6">
 {% include figure.liquid path="assets/img/research/mig-merge.jpg" title="Neural crest cells delaminating from the neural tube" class="img-fluid rounded z-depth-1" %}
-<div class="caption">Cross-section of the neural tube: neural crest cells (magenta) delaminate from the surrounding neuroepithelium (cyan).</div>
+<div class="caption">Cross-section of the neural tube: neural crest cells (magenta) delaminate from the surrounding neuroepithelium (cyan). Delamination and migration is proceeding normally on the left, but CRISPR/Cas9-mediated inhibition of nSMase2 expression blocks delamination on the right side.</div>
 </div>
 <div class="col-sm-6" markdown="1">
 
