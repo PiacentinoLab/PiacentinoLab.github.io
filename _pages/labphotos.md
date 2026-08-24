@@ -10,6 +10,14 @@ nav_order: 6
 <div class="lab-photo-gallery">
 
   <figure>
+    {% include figure.liquid path="assets/img/labphotos/escape-room-2026.jpg" title="August 2026" class="img-fluid rounded" zoomable=true %}
+    <figcaption>
+      <span class="caption-title">August 2026</span>
+      <span class="caption-text">The Piacentino Lab "escapes" the end of the summer with a stranded island adventure!</span>
+    </figcaption>
+  </figure>
+
+  <figure>
     {% include figure.liquid path="assets/img/labphotos/sdb-vegas.jpg" title="SDB 2026, Las Vegas" class="img-fluid rounded" zoomable=true %}
     <figcaption>
       <span class="caption-title">Society for Developmental Biology 2026, Las Vegas</span>
