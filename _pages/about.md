@@ -30,7 +30,7 @@ latest_posts:
 We're part of the [Department of Cell Biology](https://cellbio.jhmi.edu/) at the [Johns Hopkins University School of Medicine](https://www.hopkinsmedicine.org/). Interested in joining the lab? See our [Join](/join/) page — or head to [Meet the Lab](/people/) to see who we are.
 
 <div class="home-address">
-  <img src="{{ '/assets/img/logo/jhu-som-logo.png' | relative_url }}" alt="Johns Hopkins University School of Medicine">
+  <img src="{{ '/assets/img/logo/jhu-som-logo.svg' | relative_url }}" alt="Johns Hopkins University School of Medicine">
   <div class="address-text">
     <p>Department of Cell Biology</p>
     <p>Johns Hopkins University School of Medicine</p>
