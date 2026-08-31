@@ -1,16 +1,12 @@
 ---
 layout: handbook
 permalink: /resources/handbook/meetings/
-title: Meetings & Communication
+title: Meetings and Communication
 handbook_slug: meetings
 nav: false
 ---
 
 We use several different types of meetings in the Piacentino Lab, each with a different purpose. The goal is to make good use of our time together while creating opportunities for scientific discussion, project planning, professional development, and lab community.
-
-The basic distinction between our two most frequent meetings is:
-
-> **Lab meeting is where we work on the science. MWM is where we manage the work.**
 
 ## General Meeting Expectations {#general-meeting-expectations}
 
@@ -126,7 +122,7 @@ The goal is not simply to report what you have been doing. It is to **make sure 
 
 ## Other Meetings {#other-meetings}
 
-### Journal Club & Reading Roundtables
+### Journal Club and Reading Roundtables
 
 We hold a weekly journal club with the Miao Lab, where we discuss papers in developmental biology. See the "LabMeeting_JournalClub" folder on Google Drive for the schedule and presentation guidelines; everyone should volunteer to present approximately **2-3 papers per year**.
 
