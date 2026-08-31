@@ -1,7 +1,7 @@
 ---
 layout: handbook
 permalink: /resources/handbook/welcome/
-title: Welcome, Expectations & Conduct
+title: Welcome, Expectations and Conduct
 handbook_slug: welcome
 nav: false
 ---

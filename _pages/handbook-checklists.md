@@ -24,8 +24,8 @@ There are many systems to engage with when starting in the lab, including but no
 - [ ] Prepare for group meetings by reviewing (on Google Drive > LabMeeting_JournalClub):
   - [ ] Lab Meeting Agenda and Expectations document
   - [ ] Weekly Research Question Guidelines
-- [ ] Register for and/or take all required **Health and Safety** trainings (see [Laboratory Conduct & Biosafety](/resources/handbook/biosafety/))
-- [ ] Review the [Laboratory Conduct & Biosafety](/resources/handbook/biosafety/) chapter again, and familiarize yourself with the location of safety features including:
+- [ ] Register for and/or take all required **Health and Safety** trainings (see [Laboratory Conduct and Biosafety](/resources/handbook/biosafety/))
+- [ ] Review the [Laboratory Conduct and Biosafety](/resources/handbook/biosafety/) chapter again, and familiarize yourself with the location of safety features including:
   - [ ] Eyewash stations and emergency showers
   - [ ] Fire extinguishers, fire alarms, and evacuation routes
   - [ ] Spill kits and decontamination solutions

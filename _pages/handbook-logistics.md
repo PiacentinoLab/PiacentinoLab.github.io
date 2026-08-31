@@ -25,7 +25,7 @@ Everyone should generally aim to be present during peak hours (~10 am - 4 pm), w
 
 In case of campus closure or delays due to weather or other emergencies, prioritize safety and work from home as needed. Scheduled meetings will switch to Zoom unless otherwise indicated.
 
-## Lab Responsibilities & Maintenance {#lab-responsibilities-and-maintenance}
+## Lab Responsibilities and Maintenance {#lab-responsibilities-and-maintenance}
 
 Sharing space means sharing responsibilities. Keeping the lab stocked, organized, and clean is everyone's job. Responsibilities are outlined in our Responsibilities Document, which we review and rotate every six months to evenly distribute tasks and provide everyone with diverse lab experiences. Please regularly monitor your assigned tasks, frequently check common stocks, and proactively add items to the "jobs" board when running low. If you're unsure how to perform a task, it's your responsibility to request training from the previous person in charge.
 

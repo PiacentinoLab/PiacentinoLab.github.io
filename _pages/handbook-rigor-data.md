@@ -1,7 +1,7 @@
 ---
 layout: handbook
 permalink: /resources/handbook/rigor-data/
-title: Rigor, Reproducibility & Data Management
+title: Rigor, Reproducibility and Data Management
 handbook_slug: rigor-data
 nav: false
 ---

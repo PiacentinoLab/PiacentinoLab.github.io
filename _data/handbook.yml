@@ -1,4 +1,4 @@
-- title: Welcome, Expectations & Conduct
+- title: Welcome, Expectations and Conduct
   slug: welcome
   subsections:
     - title: Welcome to the Lab
@@ -21,7 +21,7 @@
   subsections:
     - title: Lab Hours
       anchor: lab-hours
-    - title: Lab Responsibilities & Maintenance
+    - title: Lab Responsibilities and Maintenance
       anchor: lab-responsibilities-and-maintenance
     - title: Time Off
       anchor: time-off
@@ -32,7 +32,7 @@
     - title: Organization
       anchor: organization
 
-- title: Meetings & Communication
+- title: Meetings and Communication
   slug: meetings
   subsections:
     - title: General Meeting Expectations
@@ -48,7 +48,7 @@
     - title: Communication
       anchor: communication
 
-- title: Rigor, Reproducibility & Data Management
+- title: Rigor, Reproducibility and Data Management
   slug: rigor-data
   subsections:
     - title: Rigor
@@ -60,7 +60,7 @@
     - title: Authorship
       anchor: authorship
 
-- title: Laboratory Conduct & Biosafety
+- title: Laboratory Conduct and Biosafety
   slug: biosafety
   subsections:
     - title: Introduction
@@ -69,17 +69,17 @@
       anchor: safety-training
     - title: Safe Laboratory Conduct
       anchor: safe-laboratory-conduct
-    - title: Laboratory Attire & PPE
+    - title: Laboratory Attire and PPE
       anchor: laboratory-attire-and-ppe
     - title: Hazards in the Lab
       anchor: hazards-in-the-lab
     - title: Biohazard SOPs
       anchor: biohazard-sops
-    - title: Lab Waste Handling & Disposal
+    - title: Lab Waste Handling and Disposal
       anchor: lab-waste-handling-and-disposal
     - title: Sharps Handling
       anchor: sharps-handling
-    - title: Needlesticks & Exposure
+    - title: Needlesticks and Exposure
       anchor: needlesticks-and-exposure
     - title: Spill Clean Up
       anchor: spill-clean-up

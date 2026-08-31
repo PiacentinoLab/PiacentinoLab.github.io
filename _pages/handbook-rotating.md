@@ -17,6 +17,6 @@ Rotations are a two-way street -- you want to know if our lab is a good fit for 
 ## Rotation Expectations {#rotation-expectations}
 
 1. A few weeks before your rotation, please provide Mike with the anticipated start and end dates of your rotation, your current schedule outside of lab (classes, etc), any forms that need to be completed for your program, and any deadlines for submission of end-of-rotation grades/presentations/reports/etc.
-2. We ask you to follow our lab [Code of Conduct](/resources/handbook/welcome/#code-of-conduct), and to uphold our listed expectations of *Everyone* and *Graduate Students* on the [Welcome, Expectations & Conduct](/resources/handbook/welcome/#values-and-expectations) page.
+2. We ask you to follow our lab [Code of Conduct](/resources/handbook/welcome/#code-of-conduct), and to uphold our listed expectations of *Everyone* and *Graduate Students* on the [Welcome, Expectations and Conduct](/resources/handbook/welcome/#values-and-expectations) page.
 3. During your rotation, you will have one-on-one meetings with Mike every two weeks (or more frequently), which we will schedule as a standing time once you start -- see the [Individual MWMs](/resources/handbook/meetings/#individual-mwms) section of the handbook. You may also be directly supervised by a more senior lab member, with whom you should also be communicating frequently.
 4. During your rotation, you will attend lab meetings, and near the end of your rotation, you will present briefly (20-30 min) about what you tried to accomplish during your rotation.

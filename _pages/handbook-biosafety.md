@@ -1,7 +1,7 @@
 ---
 layout: handbook
 permalink: /resources/handbook/biosafety/
-title: Laboratory Conduct & Biosafety
+title: Laboratory Conduct and Biosafety
 handbook_slug: biosafety
 nav: false
 ---
@@ -41,7 +41,7 @@ Some general rules in lab:
   - Wipe down/decontaminate all workspaces following experiments, and always decontaminate the area following a spill
 - All incidents which result in an injury to any lab members or visitors *must* be appropriately documented and reported -- contact Mike immediately following any incident
 
-## Laboratory Attire & PPE {#laboratory-attire-and-ppe}
+## Laboratory Attire and PPE {#laboratory-attire-and-ppe}
 
 The purpose of appropriate laboratory attire and PPE is to protect our skin and bodies from exposure to hazardous materials.
 
@@ -123,7 +123,7 @@ We frequently fix embryonic tissue with hazardous fixatives such as paraformalde
 
 *PPE*: When handling hazardous chemicals, always **work in a chemical fume hood** (one in WBSB 104 and another in WBSB 108), and wear gloves and a lab coat. The hood is designed to ventilate hazardous fumes so that you do not inhale them. This is especially important when fixatives are heated (e.g. during preparation of 4% paraformaldehyde (PFA) stocks). Discard your gloves after working with fixatives.
 
-*Disposal*: See [Lab Waste Handling & Disposal](#lab-waste-handling-and-disposal), *Hazardous Liquids (Chemical)*. Notably, fixatives cannot be poured down the drain and must be collected in labeled containers stored in our Satellite Accumulation Area (SAA) within the fume hood. After fixing tissue, discard fixative waste and the first "non-hazardous" wash into the appropriately labeled waste bottle.
+*Disposal*: See [Lab Waste Handling and Disposal](#lab-waste-handling-and-disposal), *Hazardous Liquids (Chemical)*. Notably, fixatives cannot be poured down the drain and must be collected in labeled containers stored in our Satellite Accumulation Area (SAA) within the fume hood. After fixing tissue, discard fixative waste and the first "non-hazardous" wash into the appropriately labeled waste bottle.
 
 *Cleanup and disinfection*: Clean up after each experiment by removing all your materials from the fume hood and leaving the space open and clear for the next user. Wipe down the work area with 70% ethanol and paper towels. When finished cleaning, dispose of your gloves, and wash your hands.
 
@@ -141,7 +141,7 @@ We grow cells in tissue culture in WBSB room 104A. These cell lines include chic
 
 *Cleanup and disinfection*: After completing your work in the BSC, remove all materials and disinfect the surfaces and tools with 70% ethanol and paper towels. Close the BSC sash, turn off the airline, and turn on the UV lamp for 30 minutes to disinfect the cabinet. Bleach and dispose of all liquid waste as described above, remove your PPE and dispose of gloves in the red-bagged biohazard bins. Wash your hands before leaving the tissue culture area.
 
-## Lab Waste Handling & Disposal {#lab-waste-handling-and-disposal}
+## Lab Waste Handling and Disposal {#lab-waste-handling-and-disposal}
 
 It is our responsibility to protect not only ourselves and our teammates but the Johns Hopkins community and beyond. This means being aware of how we dispose of materials in the lab to prevent chemical hazards or biohazards from leaving our controlled environment and posing a risk to others and the environment. While we know what we are using and their inherent risks, it is *essential* that we take waste disposal seriously and treat all waste produced in our lab as a potential chemical or biohazard risk. Below we detail how to handle the major classes of waste you will encounter and how to safely dispose of these materials. If you're unsure, what should you do? *ASK SOMEONE!*
 
@@ -187,7 +187,7 @@ We use several sharps in the lab routinely, including needles (metal and glass),
 - NEVER insert your hand or fingers into a sharps container -- if it is necessary to open and retrieve something from a sharps container, call HSE at x5-5918
 - Use a utensil such as tongs, forceps, or dustpan and broom to pick up any broken glass, needles, or sharps that have fallen on the floor or another surface
 
-## Needlesticks & Exposure {#needlesticks-and-exposure}
+## Needlesticks and Exposure {#needlesticks-and-exposure}
 
 All needlesticks and exposures to sharps must be reported immediately by calling the Needlestick Hotline 5-STIX (955-7849) for the East Baltimore Campus. An incident report must be filed. Specific details concerning the type of sharp and the actual occurrence should be listed to identify practices or types of equipment which may need to be modified.
 
