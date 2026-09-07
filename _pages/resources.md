@@ -25,11 +25,14 @@ nav_order: 9
 - Lab Protocols *(coming soon)*
 - Lab GitHub: [https://github.com/piacentinolab](https://github.com/piacentinolab)
 - Lab ShinyApp *(coming soon)*
+- LabSuit Ordering Database: [https://www.app.labsuit.com/dashboard/?labId=12673#search-substance/my-lab/simple](https://www.app.labsuit.com/dashboard/?labId=12673#search-substance/my-lab/simple)
 
 ### External
 
 - GEISHA - *Gallus gallus* gene expression atlas: [https://geisha.arizona.edu/geisha/](https://geisha.arizona.edu/geisha/)
 - Funding Opportunities: [https://research.jhu.edu/rdt/funding-opportunities/](https://research.jhu.edu/rdt/funding-opportunities/)
+- Fluorescent Protein Spectra Viewer: [https://www.fpbase.org/spectra/](https://www.fpbase.org/spectra/)
+- MultAlin Protein Alignment: [http://multalin.toulouse.inra.fr/multalin/](http://multalin.toulouse.inra.fr/multalin/)
 
 </div>
 </div>
