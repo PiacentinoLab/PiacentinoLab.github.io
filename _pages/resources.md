@@ -25,7 +25,7 @@ nav_order: 9
 - Lab Protocols *(coming soon)*
 - Lab GitHub: [https://github.com/piacentinolab](https://github.com/piacentinolab)
 - Lab ShinyApp *(coming soon)*
-- LabSuit Ordering Database: [https://www.app.labsuit.com/dashboard/?labId=12673#search-substance/my-lab/simple](https://www.app.labsuit.com/dashboard/?labId=12673#search-substance/my-lab/simple)
+- [LabSuit Ordering Database](https://www.app.labsuit.com/dashboard/?labId=12673#search-substance/my-lab/simple)
 
 ### External
 
