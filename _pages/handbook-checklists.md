@@ -21,6 +21,7 @@ There are many systems to engage with when starting in the lab, including but no
   - [ ] Request access to the Piacentino Lab Server
   - [ ] Make an account in [Benchling](https://benchling.com/) and request access to the Piacentino Lab
   - [ ] Request invite to the Piacentino Lab LabSuit and get familiar with our inventory/ordering pipeline
+  - [ ] Join our lab email listserv
 - [ ] Prepare for group meetings by reviewing (on Google Drive > LabMeeting_JournalClub):
   - [ ] Lab Meeting Agenda and Expectations document
   - [ ] Weekly Research Question Guidelines
