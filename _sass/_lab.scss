@@ -461,7 +461,7 @@ body.has-banner {
   border: 1px solid var(--global-theme-color);
   border-radius: 6px;
   padding: 0.45rem 0.5rem;
-  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 
   &:hover {
     color: #fff;
@@ -474,6 +474,7 @@ body.has-banner {
   list-style: none;
   padding-left: 0;
   margin: 0;
+  margin-bottom: 1in;
 }
 
 .handbook-toc-section {
