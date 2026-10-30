@@ -30,6 +30,7 @@ nav_order: 9
 ### External
 
 - GEISHA - *Gallus gallus* gene expression atlas: [https://geisha.arizona.edu/geisha/](https://geisha.arizona.edu/geisha/)
+- ChickyBase - Data for chicken developmental biology research: [https://chickybase.com/](https://chickybase.com/)
 - Funding Opportunities: [https://research.jhu.edu/rdt/funding-opportunities/](https://research.jhu.edu/rdt/funding-opportunities/)
 - Fluorescent Protein Spectra Viewer: [https://www.fpbase.org/spectra/](https://www.fpbase.org/spectra/)
 - MultAlin Protein Alignment: [http://multalin.toulouse.inra.fr/multalin/](http://multalin.toulouse.inra.fr/multalin/)
